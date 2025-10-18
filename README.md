@@ -1,108 +1,96 @@
 # Medication Research Dashboard
 
-An interactive web-based dashboard for exploring FDA medications with WHO ATC and AHFS classifications, focusing on natural connections and naturopathic formulary evaluation.
+## Overview
 
-## 🌐 Live Dashboard
+This directory contains two interactive HTML dashboards for viewing medication research data:
 
-**[View Dashboard](https://yourusername.github.io/medication-research-dashboard/)**
+1. **`index.html`** - Original dashboard with WHO ATC Level 4 classifications
+2. **`index_enhanced.html`** - Enhanced dashboard with both WHO ATC and AHFS classifications ⭐ **NEW**
 
-## 📊 Features
+## Enhanced Dashboard Features
 
-### Comprehensive Medication Database
-- **2,268 FDA medications** with detailed research reports
-- **WHO ATC Level 4 classifications** (554 categories)
-- **AHFS Therapeutic Classes** (301 categories)
-- Natural connection profiles for each medication
+The enhanced dashboard (`index_enhanced.html`) includes:
 
-### Interactive Filtering
-- Filter by formulary status (Allowed, Not Allowed, Target for Modernization, Discontinued)
-- Filter by WHO ATC Level 4 categories
-- Filter by AHFS therapeutic classes
-- Full-text search across all medications
+### 🔍 Advanced Filtering
+- **Formulary Status**: Filter by ALLOWED, NOT_ALLOWED, TARGET_FOR_MODERNIZATION, DISCONTINUED, etc.
+- **WHO ATC Level 4 Categories**: Filter by WHO Anatomical Therapeutic Chemical classification (554 categories)
+- **AHFS Therapeutic Classes**: Filter by American Hospital Formulary Service classification (301 categories)
 
-### Dual View Modes
-1. **Medications View** - Browse individual medications with classifications
-2. **WHO ATC Categories View** - Explore therapeutic categories with full hierarchy (Level 1→2→3→4)
+### 📊 Comprehensive Classifications Display
+Each medication shows:
+- **WHO ATC Code & Name**: e.g., `A10BA - Biguanides`
+- **AHFS Category**: e.g., `68:20 - Antidiabetic Agents`
+- Both classifications are **clickable** to view all medications in that category
 
-### Detailed Reports
-- **Medication Reports**: Natural derivation, mechanism, safety profile, integration potential
-- **Category Reports**: Therapeutic purpose, common mechanisms, naturopathic considerations
-- **Natural Connection Profiles**: 8 evidence categories with colored badges
+### 🔗 Interactive Category Views
+Click on any classification to see:
+- Category overview and medication count
+- Medications grouped by formulary status
+- Direct links to individual medication reports
 
-## 📈 Statistics
+### 📑 Enhanced Medication Reports
+Individual medication reports display:
+- Formulary status badge
+- WHO ATC and AHFS classifications side-by-side
+- Natural connection profile with colored badges
+- Full research report with formatted evidence categories
 
+## Data Files
+
+- **`medications-summary.json`** - Summary data for table display (lightweight)
+- **`medications-full.json`** - Complete medication data including full research reports
+- **`dashboard.js`** - JavaScript for original dashboard
+- **`dashboard_enhanced.js`** - JavaScript for enhanced dashboard
+
+## Regenerating Data
+
+To update the dashboard data after database changes:
+
+```bash
+cd "/Users/katymorrison/Desktop/Manual Library/1 PROJECTS/Medication_Research"
+venv/bin/python3 scripts/html_generation/generate_enhanced_dashboard_data.py
+```
+
+## Statistics (as of last generation)
+
+- **Total Medications**: 2,266
 - **Formulary Status Breakdown**:
-  - ALLOWED: 337 medications
-  - TARGET_FOR_MODERNIZATION: 1,519 medications
-  - NOT_ALLOWED: 294 medications
-  - DISCONTINUED: 118 medications
+  - ALLOWED: 337
+  - TARGET_FOR_MODERNIZATION: 1,517
+  - NOT_ALLOWED: 294
+  - DISCONTINUED: 118
 
 - **Classifications**:
-  - 554 WHO ATC Level 4 categories
-  - 301 AHFS therapeutic classes
+  - WHO ATC Level 4 Categories: 554
+  - AHFS Therapeutic Classes: 301
+  - AHFS Match Status: 1,371 medications (91.4% EXACT matches)
 
-## 🔍 Evidence Categories
+## Recent Database Improvements (October 2025)
 
-Medications are evaluated across 8 natural connection categories:
-- ✓ Direct Natural Source
-- ✓ Semi-Synthetic from Natural
-- ✓ Structural Analog of Natural
-- ✓ Endogenous Compound
-- ✓ Biosynthetic Product
-- ✓ Works via Natural Pathways
-- ✓ Facilitates Natural Processes
-- ✓ No Natural Connection
+### Natural Connection Classifications
+- ✅ All 2,266 medications now have proper natural connection flags
+- ✅ Removed contradictory "no natural connection" flags (all medications interact with biological systems)
+- ✅ Fixed 252 October 2025 research reports with missing flags
 
-## 🛠️ Technical Details
+### Classification System Refinements
+- ✅ Separated WHO validation data from AHFS validation data into proper fields
+- ✅ Set ATC levels based on code length for 1,532 medications
+- ✅ Consolidated AHFS match status categories (CATEGORY_ASSIGNED → EXACT)
+- ✅ Assigned WHO codes to previously unmatched medications (Omega-3-acid Ethyl Esters, Yttrium-90 Ibritumomab tiuxetan)
 
-### Built With
-- Pure HTML/CSS/JavaScript (no build process required)
-- [DataTables](https://datatables.net/) for interactive tables
-- [Marked.js](https://marked.js.org/) for markdown rendering
-- Responsive design for desktop and mobile
+### Data Integrity
+- ✅ Synchronized mapped_medications and comprehensive_research tables (2,266 medications in each)
+- ✅ Implemented validation rules for mutually exclusive flags
+- ✅ Complete WHO mapping types for 2,255 medications (99.5%)
 
-### Data Format
-- `medications-summary.json` - Summary data for table display (~500KB)
-- `medications-full.json` - Complete medication data with full reports (~8MB)
-- `who-category-reports.json` - WHO ATC category research (~2MB)
+## Usage
 
-### Browser Support
-- Modern browsers (Chrome, Firefox, Safari, Edge)
-- JavaScript required
-- No server-side processing needed
+Simply open `index_enhanced.html` in your web browser:
 
-## 📝 About the Research
-
-This dashboard presents research on FDA-approved medications analyzed from a naturopathic medicine perspective. Each medication has been evaluated for:
-
-- **Natural Connection**: Origin and relationship to natural compounds
-- **Mechanism of Action**: How the medication works in the body
-- **Safety Profile**: Known risks and considerations
-- **Integration Potential**: Compatibility with naturopathic practice
-
-The research uses WHO ATC (Anatomical Therapeutic Chemical) classification for international standardization and AHFS (American Hospital Formulary Service) for therapeutic categorization.
-
-## 🔄 Updates
-
-Dashboard data is periodically updated as new research is completed. Last update: October 2025
-
-## 📧 Contact
-
-For questions about the research or to report issues:
-- Create an issue in this repository
-- Contact: [your email or contact method]
-
-## 📜 License
-
-Data compiled from FDA public databases and WHO ATC classification system.
-Dashboard code: MIT License
-
-## 🙏 Acknowledgments
-
-- FDA for medication data
-- WHO for ATC classification system
-- AHFS for therapeutic categorization
+```bash
+open "/Users/katymorrison/Desktop/Manual Library/1 PROJECTS/Medication_Research/output/dashboard_data/index_enhanced.html"
+```
 
 ---
 
-*This dashboard is for informational and research purposes. Medication decisions should be made in consultation with qualified healthcare providers.*
+Generated: October 2025

@@ -1734,7 +1734,7 @@
     "level4_code": "L04AA",
     "level4_name": "Selective immunosuppressants",
     "ahfs_category": "92:36 - Disease-modifying Antirheumatic Drugs -",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1745,7 +1745,7 @@
     "level4_code": "B01AC",
     "level4_name": "Platelet aggregation inhibitors excl. heparin",
     "ahfs_category": "20:12.18 - Platelet-aggregation Inhibitors - 395014",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1756,7 +1756,7 @@
     "level4_code": "L04AB",
     "level4_name": "Tumor necrosis factor alpha (TNF-alpha) inhibitors",
     "ahfs_category": "92:36 - Disease-modifying Antirheumatic Drugs -",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -1767,7 +1767,7 @@
     "level4_code": "J07XA",
     "level4_name": "Parasitic vaccines",
     "ahfs_category": "80:12 - Vaccines - 315016",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -1778,7 +1778,7 @@
     "level4_code": "L01FD",
     "level4_name": "HER2 (Human Epidermal Growth Factor Receptor 2) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 313041",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -1789,7 +1789,7 @@
     "level4_code": "L01EB",
     "level4_name": "Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 314007",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1800,7 +1800,7 @@
     "level4_code": "L01XX",
     "level4_name": "Other antineoplastic agents",
     "ahfs_category": "52:92 - EENT Drugs, Miscellaneous - 312025",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1811,7 +1811,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 303023",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1822,7 +1822,7 @@
     "level4_code": "J05AF",
     "level4_name": "Nucleoside and nucleotide reverse transcriptase inhibitors",
     "ahfs_category": "8:18.08.08 - HIV Protease Inhibitors - 318025",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -1833,7 +1833,7 @@
     "level4_code": "A10BJ",
     "level4_name": "Glucagon-like peptide-1 (GLP-1) analogues",
     "ahfs_category": "68:20.06 - Incretin Mimetics - 314021",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1844,7 +1844,7 @@
     "level4_code": "L03AC",
     "level4_name": "Interleukins",
     "ahfs_category": "10:00 - Antineoplastic Agents - 392009",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1855,7 +1855,7 @@
     "level4_code": "L04AA",
     "level4_name": "Selective immunosuppressants",
     "ahfs_category": "84:92 - Skin and Mucous Membrane Agents,",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1866,7 +1866,7 @@
     "level4_code": "L04AG",
     "level4_name": "Monoclonal antibodies",
     "ahfs_category": "10:00 - Antineoplastic Agents - 301034",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1877,7 +1877,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 310013",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1888,7 +1888,7 @@
     "level4_code": "C10AX",
     "level4_name": "Other lipid modifying agents",
     "ahfs_category": "24:06.24 - Proprotein Convertase Subtilisin Kexin Type",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1910,7 +1910,7 @@
     "level4_code": "B01AD",
     "level4_name": "Enzymes",
     "ahfs_category": "20:12.20 - Thrombolytic Agents - 389001",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1921,7 +1921,7 @@
     "level4_code": "L01XX",
     "level4_name": "Other antineoplastic agents",
     "ahfs_category": "10:00 - Antineoplastic Agents - 379011",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1932,7 +1932,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "92:36 - Disease-modifying Antirheumatic Drugs -",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -1943,7 +1943,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 317015",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -1954,7 +1954,7 @@
     "level4_code": "J07AC",
     "level4_name": "Anthrax vaccines",
     "ahfs_category": "80:12 - Vaccines - 301062",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -1965,7 +1965,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 382075",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -1976,7 +1976,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 394027",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -1987,7 +1987,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 316033",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -1998,7 +1998,7 @@
     "level4_code": "L01XY",
     "level4_name": "Combinations of antineoplastic agents",
     "ahfs_category": "10:00 - Antineoplastic Agents - 312023",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -2009,7 +2009,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 318041",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -2020,7 +2020,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 316034",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -2031,7 +2031,7 @@
     "level4_code": "B02BC",
     "level4_name": "Local hemostatics",
     "ahfs_category": "20:12.04.92 - Anticoagulants, Miscellaneous - 309004",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -2042,7 +2042,7 @@
     "level4_code": "L04AX",
     "level4_name": "Other immunosuppressants",
     "ahfs_category": "92:44 - Immunosuppressive Agents - 385025",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -2053,7 +2053,7 @@
     "level4_code": "L04AX",
     "level4_name": "Other immunosuppressants",
     "ahfs_category": "92:44 - Immunosuppressive Agents - 301042",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -2064,7 +2064,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 316049",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -2075,7 +2075,7 @@
     "level4_code": "J05AP",
     "level4_name": "Antivirals for treatment of HCV infections",
     "ahfs_category": "8:18.40.20 - HCV Protease Inhibitors - 379014",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -2086,7 +2086,7 @@
     "level4_code": "L01FF",
     "level4_name": "PD-1/PD-L1 (Programmed cell death protein 1/death ligand 1) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 316021",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -2108,7 +2108,7 @@
     "level4_code": "L01FF",
     "level4_name": "PD-1/PD-L1 (Programmed cell death protein 1/death ligand 1) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 317023",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -2119,7 +2119,7 @@
     "level4_code": "L01XL",
     "level4_name": "Antineoplastic cell and gene therapy",
     "ahfs_category": "26:12 - Gene Therapy - 379016",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -2229,7 +2229,7 @@
     "level4_code": "L03AX",
     "level4_name": "Other immunostimulants",
     "ahfs_category": "80:12 - Vaccines - 382809",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -3164,7 +3164,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "92:44 - Immunosuppressive Agents - 301050",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -3175,7 +3175,7 @@
     "level4_code": "L04AA",
     "level4_name": "Selective immunosuppressants",
     "ahfs_category": "92:44 - Immunosuppressive Agents - 312008",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -3186,7 +3186,7 @@
     "level4_code": "L04AG",
     "level4_name": "Monoclonal antibodies",
     "ahfs_category": "92:44 - Immunosuppressive Agents - 311017",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -3197,7 +3197,7 @@
     "level4_code": "A03BA",
     "level4_name": "Belladonna alkaloids, tertiary amines",
     "ahfs_category": "12:08.08 - Antimuscarinics/Antispasmodics - 384021",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -3208,7 +3208,7 @@
     "level4_code": "R03DX",
     "level4_name": "Other systemic drugs for obstructive airway diseases",
     "ahfs_category": "48:10.20 - Interleukin Antagonists - 317063",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -3219,7 +3219,7 @@
     "level4_code": "L01FG",
     "level4_name": "VEGF/VEGFR (Vascular Endothelial Growth Factor / -Receptor) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 304008",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -3230,7 +3230,7 @@
     "level4_code": "J06BC",
     "level4_name": "Antibacterial monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 316082",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -3241,7 +3241,7 @@
     "level4_code": "J05AF",
     "level4_name": "Nucleoside and nucleotide reverse transcriptase inhibitors",
     "ahfs_category": "8:18.08.12 - HIV Integrase Inhibitors - 318011",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -3252,7 +3252,7 @@
     "level4_code": "L01FX",
     "level4_name": "Other monoclonal antibodies and antibody drug conjugates",
     "ahfs_category": "10:00 - Antineoplastic Agents - 316001",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -3263,7 +3263,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 315015",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -3274,7 +3274,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 379023",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -3285,7 +3285,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 303046",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -3296,7 +3296,7 @@
     "level4_code": "L01FX",
     "level4_name": "Other monoclonal antibodies and antibody drug conjugates",
     "ahfs_category": "10:00 - Antineoplastic Agents - 312011",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -3307,7 +3307,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "84:92 - Skin and Mucous Membrane Agents,",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -3318,7 +3318,7 @@
     "level4_code": "M05BX",
     "level4_name": "Other drugs affecting bone structure and mineralization",
     "ahfs_category": "40:92 - Electrolytic, Caloric, and Water Balance Agents;",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -4149,7 +4149,7 @@
   {
     "id": 1461,
     "name": "CENOBAMATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "N03AX",
     "level4_name": "Other antiepileptics",
@@ -4963,7 +4963,7 @@
   {
     "id": 576,
     "name": "CLONAZEPAM",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "N03AE",
     "level4_name": "Benzodiazepine derivatives",
@@ -4996,7 +4996,7 @@
   {
     "id": 1802,
     "name": "CLORAZEPATE DIPOTASSIUM",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -5474,7 +5474,7 @@
     "level4_code": "L01EX",
     "level4_name": "Other protein kinase inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 313027",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -5485,7 +5485,7 @@
     "level4_code": "L01XX",
     "level4_name": "Other antineoplastic agents",
     "ahfs_category": "10:00 - Antineoplastic Agents - 379026",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -5496,7 +5496,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "92:92 - Other Miscellaneous Therapeutic Agents -",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -5507,7 +5507,7 @@
     "level4_code": "B01AX",
     "level4_name": "Other antithrombotic agents",
     "ahfs_category": "20:12.92 - Antithrombotic Agents, Miscellaneous -",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -5518,7 +5518,7 @@
     "level4_code": "L01FF",
     "level4_name": "PD-1/PD-L1 (Programmed cell death protein 1/death ligand 1) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 318048",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -5529,7 +5529,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 317035",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -5540,7 +5540,7 @@
     "level4_code": "L04AB",
     "level4_name": "Tumor necrosis factor alpha (TNF-alpha) inhibitors",
     "ahfs_category": "92:36 - Disease-modifying Antirheumatic Drugs -",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -5551,7 +5551,7 @@
     "level4_code": "L01FE",
     "level4_name": "EGFR (Epidermal Growth Factor Receptor) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 304006",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -5562,7 +5562,7 @@
     "level4_code": "J07XA",
     "level4_name": "Parasitic vaccines",
     "ahfs_category": "80:12 - Vaccines - 317010",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -5573,7 +5573,7 @@
     "level4_code": "G03GA",
     "level4_name": "Gonadotropins",
     "ahfs_category": "68:18.08 - Gonadotropins - 301054",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -5584,7 +5584,7 @@
     "level4_code": "B02BD",
     "level4_name": "Blood coagulation factors",
     "ahfs_category": "20:28.16 - Hemostatics - 316036",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -5595,7 +5595,7 @@
     "level4_code": "B02BD",
     "level4_name": "Blood coagulation factors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 382289",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -5606,7 +5606,7 @@
     "level4_code": "M09AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 311015",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -5617,7 +5617,7 @@
     "level4_code": "L01EM",
     "level4_name": "Phosphatidylinositol-3-kinase (Pi3K) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 317055",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -5628,7 +5628,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 397030",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -5947,7 +5947,7 @@
     "level4_code": "L01BC",
     "level4_name": "Pyrimidine analogues",
     "ahfs_category": "10:00 - Antineoplastic Agents - 317052",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -6591,7 +6591,7 @@
   {
     "id": 1819,
     "name": "DIETHYLPROPION",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -7130,7 +7130,7 @@
   {
     "id": 772,
     "name": "DROMOSTANOLONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "A14AA",
     "level4_name": "Androstan derivatives",
@@ -7278,7 +7278,7 @@
     "level4_code": "J05AP",
     "level4_name": "Antivirals for treatment of HCV infections",
     "ahfs_category": "8:18.40.24 - HCV Replication Complex Inhibitors -",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -7289,7 +7289,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "92:20 - Immunomodulatory Agents - 316073",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -7300,7 +7300,7 @@
     "level4_code": "L01FC",
     "level4_name": "CD38 (Clusters of Differentiation 38) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 316022",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -7311,7 +7311,7 @@
     "level4_code": "B03XA",
     "level4_name": "Other antianemic preparations",
     "ahfs_category": "20:16 - Hematopoietic Agents - 301064",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -7322,7 +7322,7 @@
     "level4_code": "J05AE",
     "level4_name": "Protease inhibitors",
     "ahfs_category": "8:18.40.16 - HCV Polymerase Inhibitors - 315025",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -7333,7 +7333,7 @@
     "level4_code": "L01XX",
     "level4_name": "Other antineoplastic agents",
     "ahfs_category": "10:00 - Antineoplastic Agents - 301049",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -7344,7 +7344,7 @@
     "level4_code": "M05BX",
     "level4_name": "Other drugs affecting bone structure and mineralization",
     "ahfs_category": "92:24 - Bone Resorption Inhibitors - 310025",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -7355,7 +7355,7 @@
     "level4_code": "L01FX",
     "level4_name": "Other monoclonal antibodies and antibody drug conjugates",
     "ahfs_category": "10:00 - Antineoplastic Agents - 316005",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -7366,7 +7366,7 @@
     "level4_code": "J06AA",
     "level4_name": "Immune sera",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 382808",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -7377,7 +7377,7 @@
     "level4_code": "J05AR",
     "level4_name": "Antivirals for treatment of HIV infections, combinations",
     "ahfs_category": "8:18.08.12 - HIV Integrase Inhibitors - 317064",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -7388,7 +7388,7 @@
     "level4_code": "R05CB",
     "level4_name": "Mucolytics",
     "ahfs_category": "48:24 - Mucolytic Agents - 394002",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -7399,7 +7399,7 @@
     "level4_code": "A10BJ",
     "level4_name": "Glucagon-like peptide-1 (GLP-1) analogues",
     "ahfs_category": "68:20.06 - Incretin Mimetics - 315021",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -7410,7 +7410,7 @@
     "level4_code": "D11AH",
     "level4_name": "Agents for dermatitis, excluding corticosteroids",
     "ahfs_category": "84:92 - Skin and Mucous Membrane Agents,",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -7421,7 +7421,7 @@
     "level4_code": "L01FF",
     "level4_name": "PD-1/PD-L1 (Programmed cell death protein 1/death ligand 1) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 317032",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -7614,7 +7614,7 @@
   {
     "id": 1826,
     "name": "ELTROMBOPAG CHOLINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -7636,7 +7636,7 @@
   {
     "id": 777,
     "name": "ELUXADOLINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "A07DA",
     "level4_name": "Antipropulsives",
@@ -8373,7 +8373,7 @@
   {
     "id": 1478,
     "name": "ETHOTOIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "N03AB",
     "level4_name": "Hydantoin derivatives",
@@ -8450,7 +8450,7 @@
   {
     "id": 1479,
     "name": "ETOMIDATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "N01AX",
     "level4_name": "Other general anesthetics",
@@ -8576,7 +8576,7 @@
     "level4_code": "B06AC",
     "level4_name": "Drugs used in hereditary angioedema",
     "ahfs_category": "92:32 - Complement Inhibitors - 311006",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -8587,7 +8587,7 @@
     "level4_code": "L04AJ",
     "level4_name": "Complement inhibitors",
     "ahfs_category": "92:32 - Complement Inhibitors - 307019",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -8598,7 +8598,7 @@
     "level4_code": "L03AX",
     "level4_name": "Other immunostimulants",
     "ahfs_category": "44:00 - Enzymes - 318053",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -8609,7 +8609,7 @@
     "level4_code": "J05AP",
     "level4_name": "Antivirals for treatment of HCV infections",
     "ahfs_category": "8:18.40.24 - HCV Replication Complex Inhibitors -",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -8620,7 +8620,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 316008",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -8631,7 +8631,7 @@
     "level4_code": "L01FX",
     "level4_name": "Other monoclonal antibodies and antibody drug conjugates",
     "ahfs_category": "10:00 - Antineoplastic Agents - 316023",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -8642,7 +8642,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:16 - Hematopoietic Agents - 309003",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -8653,7 +8653,7 @@
     "level4_code": "J05AF",
     "level4_name": "Nucleoside and nucleotide reverse transcriptase inhibitors",
     "ahfs_category": "8:18.08.12 - HIV Integrase Inhibitors - 313034",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -8664,7 +8664,7 @@
     "level4_code": "L04AG",
     "level4_name": "Monoclonal antibodies",
     "ahfs_category": "92:44 - Immunosuppressive Agents - 318062",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -8675,7 +8675,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 317065",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -8686,7 +8686,7 @@
     "level4_code": "B03XA",
     "level4_name": "Other antianemic preparations",
     "ahfs_category": "20:04 - Antianemia Drugs - 392034",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -8697,7 +8697,7 @@
     "level4_code": "B03XA",
     "level4_name": "Other antianemic preparations",
     "ahfs_category": "20:16 - Hematopoietic Agents - 392034",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -8708,7 +8708,7 @@
     "level4_code": "N02CD",
     "level4_name": "Calcitonin gene-related peptide (CGRP) antagonists",
     "ahfs_category": "28:32.12 - Calcitonin Gene-related Peptide (CGRP)",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -8719,7 +8719,7 @@
     "level4_code": "L04AB",
     "level4_name": "Tumor necrosis factor alpha (TNF-alpha) inhibitors",
     "ahfs_category": "92:36 - Disease-modifying Antirheumatic Drugs -",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -8730,7 +8730,7 @@
     "level4_code": "M05BX",
     "level4_name": "Other drugs affecting bone structure and mineralization",
     "ahfs_category": "92:24 - Bone Resorption Inhibitors - 382581",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -8741,7 +8741,7 @@
     "level4_code": "C10AX",
     "level4_name": "Other lipid modifying agents",
     "ahfs_category": "24:06.24 - Proprotein Convertase Subtilisin Kexin Type",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -8752,7 +8752,7 @@
     "level4_code": "A10BJ",
     "level4_name": "Glucagon-like peptide-1 (GLP-1) analogues",
     "ahfs_category": "68:20.06 - Incretin Mimetics - 305021",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -8908,17 +8908,6 @@
     "ahfs_category": "20:04.04 - Iron Preparations - 315011",
     "who_mapping_type": "not_in_who",
     "who_mapping_notes": "Too new for WHO ATC database; FDA approved July 25, 2013 (Injectafer) for iron deficiency anemia"
-  },
-  {
-    "id": 1838,
-    "name": "FERRIC CITRATE",
-    "status": "TARGET_FOR_MODERNIZATION",
-    "topical_only": false,
-    "level4_code": null,
-    "level4_name": null,
-    "ahfs_category": "40:18.19 - Phosphate-removing Agents - 315033",
-    "who_mapping_type": "name_variant",
-    "who_mapping_notes": "Name variant: US/FDA name differs from WHO/INN name or salt/ester form removed"
   },
   {
     "id": 1841,
@@ -9407,7 +9396,7 @@
   {
     "id": 555,
     "name": "FLUOXYMESTERONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "G03BA",
     "level4_name": "3-oxoandrosten (4) derivatives",
@@ -9841,7 +9830,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 382076",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -9852,7 +9841,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 307039",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -9863,7 +9852,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 317012",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -9874,7 +9863,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 379056",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -9885,7 +9874,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 301055",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -9896,7 +9885,7 @@
     "level4_code": "B02BD",
     "level4_name": "Blood coagulation factors",
     "ahfs_category": "20:28.16 - Hemostatics - 313032",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -9907,7 +9896,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 317013",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -9918,7 +9907,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:28.92 - Antihemorrhagic Agents, Miscellaneous -",
-    "who_mapping_type": "DRUG_CLASS_PATTERN",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on DRUG_CLASS_PATTERN"
   },
   {
@@ -9929,7 +9918,7 @@
     "level4_code": "J05AP",
     "level4_name": "Antivirals for treatment of HCV infections",
     "ahfs_category": "8:18.40.20 - HCV Protease Inhibitors - 379057",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -9940,7 +9929,7 @@
     "level4_code": "L03AA",
     "level4_name": "Colony stimulating factors",
     "ahfs_category": "20:16 - Hematopoietic Agents - 392033",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -9951,7 +9940,7 @@
     "level4_code": "V09AX",
     "level4_name": "Other central nervous system diagnostic radiopharmaceuticals",
     "ahfs_category": "36:68 - Roentgenographic and Other Imaging Agents -",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -9962,7 +9951,7 @@
     "level4_code": "N02CD",
     "level4_name": "Calcitonin gene-related peptide (CGRP) antagonists",
     "ahfs_category": "28:32.12 - Calcitonin Gene-related Peptide (CGRP)",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -10666,7 +10655,7 @@
     "level4_code": "N02CD",
     "level4_name": "Calcitonin gene-related peptide (CGRP) antagonists",
     "ahfs_category": "28:32.12 - Calcitonin Gene-related Peptide (CGRP)",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -10677,7 +10666,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 305039",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -10688,7 +10677,7 @@
     "level4_code": "L01FX",
     "level4_name": "Other monoclonal antibodies and antibody drug conjugates",
     "ahfs_category": "10:00 - Antineoplastic Agents - 300030",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -10699,7 +10688,7 @@
     "level4_code": "J05AP",
     "level4_name": "Antivirals for treatment of HCV infections",
     "ahfs_category": "8:18.40.20 - HCV Protease Inhibitors - 317051",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -10710,7 +10699,7 @@
     "level4_code": "L04AB",
     "level4_name": "Tumor necrosis factor alpha (TNF-alpha) inhibitors",
     "ahfs_category": "92:36 - Disease-modifying Antirheumatic Drugs -",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -10721,7 +10710,7 @@
     "level4_code": "G03GA",
     "level4_name": "Gonadotropins",
     "ahfs_category": "68:18.08 - Gonadotropins - 382459",
-    "who_mapping_type": "COMBINATION_PRIMARY_COMPONENT",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on COMBINATION_PRIMARY_COMPONENT"
   },
   {
@@ -10732,7 +10721,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "84:92 - Skin and Mucous Membrane Agents,",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -11194,7 +11183,7 @@
     "level4_code": "J07AG",
     "level4_name": "Haemophilus influenzae B vaccines",
     "ahfs_category": "80:12 - Vaccines - 386010",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -11216,7 +11205,7 @@
     "level4_code": "J07BC",
     "level4_name": "Hepatitis vaccines",
     "ahfs_category": "80:12 - Vaccines - 395003",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -11227,7 +11216,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 381051",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -11238,7 +11227,7 @@
     "level4_code": "J07BC",
     "level4_name": "Hepatitis vaccines",
     "ahfs_category": "80:12 - Vaccines - 381052",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -11249,7 +11238,7 @@
     "level4_code": "J07BM",
     "level4_name": "Papillomavirus vaccines",
     "ahfs_category": "80:12 - Vaccines - 306016",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -12250,7 +12239,7 @@
     "level4_code": "J05AX",
     "level4_name": "Other antivirals",
     "ahfs_category": "8:18.08.04 - HIV Entry and Fusion Inhibitors - 318012",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -12261,7 +12250,7 @@
     "level4_code": "V10XX",
     "level4_name": "Various therapeutic radiopharmaceuticals",
     "ahfs_category": "10:00 - Antineoplastic Agents - 302022",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -12272,7 +12261,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 310011",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -12283,7 +12272,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 304024",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -12294,7 +12283,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 382815",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -12305,7 +12294,7 @@
     "level4_code": "J07AG",
     "level4_name": "Haemophilus influenzae B vaccines",
     "ahfs_category": "80:12 - Vaccines - 303031",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -12316,7 +12305,7 @@
     "level4_code": "J07AG",
     "level4_name": "Haemophilus influenzae B vaccines",
     "ahfs_category": "80:12 - Vaccines - 313010",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -12327,7 +12316,7 @@
     "level4_code": "J07AG",
     "level4_name": "Haemophilus influenzae B vaccines",
     "ahfs_category": "80:12 - Vaccines - 395026",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -12338,7 +12327,7 @@
     "level4_code": "L01FB",
     "level4_name": "CD22 (Clusters of Differentiation 22) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 317054",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -12349,7 +12338,7 @@
     "level4_code": "A10AB",
     "level4_name": "Insulins and analogues for injection, fast-acting",
     "ahfs_category": "68:20.08.04 - Rapid-acting Insulins - 300048",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -12360,7 +12349,7 @@
     "level4_code": "A10AB",
     "level4_name": "Insulins and analogues for injection, fast-acting",
     "ahfs_category": "68:20.08.12 - Intermediate-acting Insulins - 379085",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -12371,7 +12360,7 @@
     "level4_code": "A10AE",
     "level4_name": "Insulins and analogues for injection, long-acting",
     "ahfs_category": "68:20.08.16 - Long-acting Insulins - 316061",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -12382,7 +12371,7 @@
     "level4_code": "A10AE",
     "level4_name": "Insulins and analogues for injection, long-acting",
     "ahfs_category": "68:20.08.16 - Long-acting Insulins - 300027",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -12393,7 +12382,7 @@
     "level4_code": "A10AB",
     "level4_name": "Insulins and analogues for injection, fast-acting",
     "ahfs_category": "68:20.08.04 - Rapid-acting Insulins - 306009",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -12404,7 +12393,7 @@
     "level4_code": "A10AF",
     "level4_name": "Insulins and analogues for inhalation",
     "ahfs_category": "68:20.08.08 - Short-acting Insulins - 384041",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -12415,7 +12404,7 @@
     "level4_code": "A10AF",
     "level4_name": "Insulins and analogues for inhalation",
     "ahfs_category": "68:20.08.12 - Intermediate-acting Insulins - 384041",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -12426,7 +12415,7 @@
     "level4_code": "A10AB",
     "level4_name": "Insulins and analogues for injection, fast-acting",
     "ahfs_category": "68:20.08.04 - Rapid-acting Insulins - 397021",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -12437,7 +12426,7 @@
     "level4_code": "A10AB",
     "level4_name": "Insulins and analogues for injection, fast-acting",
     "ahfs_category": "68:20.08.12 - Intermediate-acting Insulins - 379086",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -12448,7 +12437,7 @@
     "level4_code": "A10AF",
     "level4_name": "Insulins and analogues for inhalation",
     "ahfs_category": "68:20.08.12 - Intermediate-acting Insulins - 382612",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -12459,7 +12448,7 @@
     "level4_code": "L03AA",
     "level4_name": "Colony stimulating factors",
     "ahfs_category": "8:18.20 - Interferons - 301061",
-    "who_mapping_type": "INTERFERON",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -12470,7 +12459,7 @@
     "level4_code": "L03AA",
     "level4_name": "Colony stimulating factors",
     "ahfs_category": "92:20 - Immunomodulatory Agents - 393040",
-    "who_mapping_type": "INTERFERON",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -12481,7 +12470,7 @@
     "level4_code": "L03AB",
     "level4_name": "Interferons",
     "ahfs_category": "92:20 - Immunomodulatory Agents - 303020",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -12492,7 +12481,7 @@
     "level4_code": "L01FX",
     "level4_name": "Other monoclonal antibodies and antibody drug conjugates",
     "ahfs_category": "10:00 - Antineoplastic Agents - 311018",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -12503,7 +12492,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "84:92 - Skin and Mucous Membrane Agents,",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -12514,7 +12503,7 @@
     "level4_code": "J07XA",
     "level4_name": "Parasitic vaccines",
     "ahfs_category": "80:12 - Vaccines - 393014",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -12582,17 +12571,6 @@
     "ahfs_category": "52:02 - Antiallergic Agents - 399018",
     "who_mapping_type": "exact",
     "who_mapping_notes": "Direct match: active moiety name matches WHO substance name"
-  },
-  {
-    "id": 1896,
-    "name": "KRYPTON GAS",
-    "status": "TARGET_FOR_MODERNIZATION",
-    "topical_only": false,
-    "level4_code": null,
-    "level4_name": null,
-    "ahfs_category": null,
-    "who_mapping_type": "name_variant",
-    "who_mapping_notes": "Name variant: US/FDA name differs from WHO/INN name or salt/ester form removed"
   },
   {
     "id": 176,
@@ -13345,7 +13323,7 @@
   {
     "id": 1171,
     "name": "LITHIUM",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "ANTIPSYCHOTICS",
     "level4_name": "N05AN",
@@ -13680,7 +13658,7 @@
     "level4_code": "B06AC",
     "level4_name": "Drugs used in hereditary angioedema",
     "ahfs_category": "92:32 - Complement Inhibitors - 318042",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -13691,7 +13669,7 @@
     "level4_code": "L01EH",
     "level4_name": "Human epidermal growth factor receptor 2 (HER2) tyrosine kinase inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 307006",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -13702,7 +13680,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 303024",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -13713,7 +13691,7 @@
     "level4_code": "J05AP",
     "level4_name": "Antivirals for treatment of HCV infections",
     "ahfs_category": "8:18.40.24 - HCV Replication Complex Inhibitors -",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -13724,7 +13702,7 @@
     "level4_code": "A10BJ",
     "level4_name": "Glucagon-like peptide-1 (GLP-1) analogues",
     "ahfs_category": "68:20.06 - Incretin Mimetics - 316060",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -13735,7 +13713,7 @@
     "level4_code": "J05AR",
     "level4_name": "Antivirals for treatment of HIV infections, combinations",
     "ahfs_category": "8:18.08.08 - HIV Protease Inhibitors - 300043",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -13746,7 +13724,7 @@
     "level4_code": "G03GA",
     "level4_name": "Gonadotropins",
     "ahfs_category": "68:18.08 - Gonadotropins - 304027",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -14379,7 +14357,7 @@
   {
     "id": 1504,
     "name": "METHARBITAL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "N03AA",
     "level4_name": "Barbiturates and derivatives",
@@ -14643,7 +14621,7 @@
   {
     "id": 556,
     "name": "METHYLTESTOSTERONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "G03BA",
     "level4_name": "3-oxoandrosten (4) derivatives",
@@ -15297,7 +15275,7 @@
     "level4_code": "J07XA",
     "level4_name": "Parasitic vaccines",
     "ahfs_category": "80:12 - Vaccines - 382559",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -15308,7 +15286,7 @@
     "level4_code": "J07AH",
     "level4_name": "Meningococcal vaccines",
     "ahfs_category": "80:12 - Vaccines - 317007",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -15319,7 +15297,7 @@
     "level4_code": "J07AH",
     "level4_name": "Meningococcal vaccines",
     "ahfs_category": "80:12 - Vaccines - 397004",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -15330,7 +15308,7 @@
     "level4_code": "R03DX",
     "level4_name": "Other systemic drugs for obstructive airway diseases",
     "ahfs_category": "48:10.20 - Interleukin Antagonists - 316051",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -15341,7 +15319,7 @@
     "level4_code": "L01FX",
     "level4_name": "Other monoclonal antibodies and antibody drug conjugates",
     "ahfs_category": "10:00 - Antineoplastic Agents - 318034",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -15352,7 +15330,7 @@
     "level4_code": "L01XY",
     "level4_name": "Combinations of antineoplastic agents",
     "ahfs_category": "10:00 - Antineoplastic Agents - 318056",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -15363,7 +15341,7 @@
     "level4_code": "J07BD",
     "level4_name": "Measles vaccines",
     "ahfs_category": "80:12 - Vaccines - 382561",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -16144,7 +16122,7 @@
     "level4_code": "L04AG",
     "level4_name": "Monoclonal antibodies",
     "ahfs_category": "92:20 - Immunomodulatory Agents - 304030",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -16155,7 +16133,7 @@
     "level4_code": "L01FE",
     "level4_name": "EGFR (Epidermal Growth Factor Receptor) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 316025",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -16166,7 +16144,7 @@
     "level4_code": "L01FF",
     "level4_name": "PD-1/PD-L1 (Programmed cell death protein 1/death ligand 1) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 315022",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -16678,7 +16656,7 @@
   {
     "id": 1952,
     "name": "OXYCODONE TEREPHTHALATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -16804,7 +16782,7 @@
     "level4_code": "J06BC",
     "level4_name": "Antibacterial monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 316064",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -16815,7 +16793,7 @@
     "level4_code": "L01FA",
     "level4_name": "CD20 (Clusters of Differentiation 20) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 314013",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -16826,7 +16804,7 @@
     "level4_code": "L04AG",
     "level4_name": "Monoclonal antibodies",
     "ahfs_category": "92:20 - Immunomodulatory Agents - 317024",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -16837,7 +16815,7 @@
     "level4_code": "L01FA",
     "level4_name": "CD20 (Clusters of Differentiation 20) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 310003",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -16848,7 +16826,7 @@
     "level4_code": "L01FX",
     "level4_name": "Other monoclonal antibodies and antibody drug conjugates",
     "ahfs_category": "10:00 - Antineoplastic Agents - 316081",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -16859,7 +16837,7 @@
     "level4_code": "L01XX",
     "level4_name": "Other antineoplastic agents",
     "ahfs_category": "10:00 - Antineoplastic Agents - 313028",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -16870,7 +16848,7 @@
     "level4_code": "R03DX",
     "level4_name": "Other systemic drugs for obstructive airway diseases",
     "ahfs_category": "48:92 - Respiratory Tract Agents, Miscellaneous -",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -16881,7 +16859,7 @@
     "level4_code": "J05AE",
     "level4_name": "Protease inhibitors",
     "ahfs_category": "8:18.40.24 - HCV Replication Complex Inhibitors -",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -16889,11 +16867,11 @@
     "name": "Omega-3-acid Ethyl Esters",
     "status": "TARGET_FOR_MODERNIZATION",
     "topical_only": false,
-    "level4_code": null,
+    "level4_code": "C10AX",
     "level4_name": null,
     "ahfs_category": "24:06.92 - Antilipemic Agents, Miscellaneous - 306002",
-    "who_mapping_type": null,
-    "who_mapping_notes": null
+    "who_mapping_type": "name_variant",
+    "who_mapping_notes": "WHO substance: omega-3-triglycerides incl. other esters and acids. FDA name variant."
   },
   {
     "id": 2282,
@@ -16903,7 +16881,7 @@
     "level4_code": "L03AC",
     "level4_name": "Interleukins",
     "ahfs_category": "20:16 - Hematopoietic Agents - 308005",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -17503,7 +17481,7 @@
   {
     "id": 1517,
     "name": "PERAMPANEL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "N03AX",
     "level4_name": "Other antiepileptics",
@@ -17646,7 +17624,7 @@
   {
     "id": 1971,
     "name": "PHENDIMETRAZINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -17745,7 +17723,7 @@
   {
     "id": 850,
     "name": "PHENTERMINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "A08AA",
     "level4_name": "Centrally acting antiobesity products",
@@ -17756,7 +17734,7 @@
   {
     "id": 1972,
     "name": "PHENTERMINE RESIN COMPLEX",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -18982,7 +18960,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "8:18.24 - Monoclonal Antibodies - 398034",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -18993,7 +18971,7 @@
     "level4_code": "M05BX",
     "level4_name": "Other drugs affecting bone structure and mineralization",
     "ahfs_category": "92:24 - Bone Resorption Inhibitors - 392024",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -19004,7 +18982,7 @@
     "level4_code": "L01FE",
     "level4_name": "EGFR (Epidermal Growth Factor Receptor) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 307004",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -19015,7 +18993,7 @@
     "level4_code": "L03AX",
     "level4_name": "Other immunostimulants",
     "ahfs_category": "44:00 - Enzymes - 379134",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -19026,7 +19004,7 @@
     "level4_code": "L01XX",
     "level4_name": "Other antineoplastic agents",
     "ahfs_category": "10:00 - Antineoplastic Agents - 395031",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -19037,7 +19015,7 @@
     "level4_code": "L03AA",
     "level4_name": "Colony stimulating factors",
     "ahfs_category": "20:16 - Hematopoietic Agents - 302006",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -19048,7 +19026,7 @@
     "level4_code": "L03AA",
     "level4_name": "Colony stimulating factors",
     "ahfs_category": "8:18.20 - Interferons - 301060",
-    "who_mapping_type": "INTERFERON",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -19059,7 +19037,7 @@
     "level4_code": "L03AB",
     "level4_name": "Interferons",
     "ahfs_category": "92:20 - Immunomodulatory Agents - 315049",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -19070,7 +19048,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 318018",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -19081,7 +19059,7 @@
     "level4_code": "L01FF",
     "level4_name": "PD-1/PD-L1 (Programmed cell death protein 1/death ligand 1) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 315018",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -19092,7 +19070,7 @@
     "level4_code": "L01FD",
     "level4_name": "HER2 (Human Epidermal Growth Factor Receptor 2) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 313007",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -19103,7 +19081,7 @@
     "level4_code": "J07XA",
     "level4_name": "Parasitic vaccines",
     "ahfs_category": "80:12 - Vaccines - 382657",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -19114,7 +19092,7 @@
     "level4_code": "J07XA",
     "level4_name": "Parasitic vaccines",
     "ahfs_category": "80:12 - Vaccines - 395016",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -19994,7 +19972,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 381041",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -20005,7 +19983,7 @@
     "level4_code": "J07XA",
     "level4_name": "Parasitic vaccines",
     "ahfs_category": "80:12 - Vaccines - 381042",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -20016,7 +19994,7 @@
     "level4_code": "L01FG",
     "level4_name": "VEGF/VEGFR (Vascular Endothelial Growth Factor / -Receptor) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 315007",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -20027,7 +20005,7 @@
     "level4_code": "S01LA",
     "level4_name": "Antineovascularisation agents",
     "ahfs_category": "52:92 - EENT Drugs, Miscellaneous - 306023",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -20038,7 +20016,7 @@
     "level4_code": "V03AF",
     "level4_name": "Detoxifying agents for antineoplastic treatment",
     "ahfs_category": "44:00 - Enzymes - 302031",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -20049,7 +20027,7 @@
     "level4_code": "L04AJ",
     "level4_name": "Complement inhibitors",
     "ahfs_category": "92:32 - Complement Inhibitors - 319002",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -20060,7 +20038,7 @@
     "level4_code": "J06BC",
     "level4_name": "Antibacterial monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 316019",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -20071,7 +20049,7 @@
     "level4_code": "R03DX",
     "level4_name": "Other systemic drugs for obstructive airway diseases",
     "ahfs_category": "48:10.20 - Interleukin Antagonists - 316052",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -20082,7 +20060,7 @@
     "level4_code": "B01AD",
     "level4_name": "Enzymes",
     "ahfs_category": "20:12.20 - Thrombolytic Agents - 301057",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -20093,7 +20071,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 382806",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -20104,7 +20082,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "92:92 - Other Miscellaneous Therapeutic Agents -",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -20126,7 +20104,7 @@
     "level4_code": "J07XA",
     "level4_name": "Parasitic vaccines",
     "ahfs_category": "80:12 - Vaccines - 306006",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -20137,7 +20115,7 @@
     "level4_code": "J07BD",
     "level4_name": "Measles vaccines",
     "ahfs_category": "80:12 - Vaccines - 382560",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -20148,7 +20126,7 @@
     "level4_code": "L01XK",
     "level4_name": "Poly (ADP-ribose) polymerase (PARP) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 317001",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -20880,7 +20858,7 @@
   {
     "id": 877,
     "name": "STANOZOLOL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "A14AA",
     "level4_name": "Androstan derivatives",
@@ -21325,7 +21303,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 301036",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -21336,7 +21314,7 @@
     "level4_code": "L03AA",
     "level4_name": "Colony stimulating factors",
     "ahfs_category": "20:16 - Hematopoietic Agents - 393005",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -21347,7 +21325,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "92:36 - Disease-modifying Antirheumatic Drugs -",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -21358,7 +21336,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 316050",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -21369,7 +21347,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "84:92 - Skin and Mucous Membrane Agents,",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -21380,7 +21358,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 315037",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -21391,7 +21369,7 @@
     "level4_code": "L03AX",
     "level4_name": "Other immunostimulants",
     "ahfs_category": "26:04 - Cellular Therapy - 379155",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -21402,7 +21380,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 379156",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -21413,7 +21391,7 @@
     "level4_code": "J05AP",
     "level4_name": "Antivirals for treatment of HCV infections",
     "ahfs_category": "8:18.40.16 - HCV Polymerase Inhibitors - 317003",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -21424,7 +21402,7 @@
     "level4_code": "J05AP",
     "level4_name": "Antivirals for treatment of HCV infections",
     "ahfs_category": "8:18.40.16 - HCV Polymerase Inhibitors - 317048",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -22288,7 +22266,7 @@
   {
     "id": 557,
     "name": "TESTOSTERONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "G03BA",
     "level4_name": "3-oxoandrosten (4) derivatives",
@@ -22299,7 +22277,7 @@
   {
     "id": 558,
     "name": "TESTOSTERONE CYPIONATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "G03BA",
     "level4_name": "3-oxoandrosten (4) derivatives",
@@ -22310,7 +22288,7 @@
   {
     "id": 559,
     "name": "TESTOSTERONE ENANTHATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "G03BA",
     "level4_name": "3-oxoandrosten (4) derivatives",
@@ -22321,7 +22299,7 @@
   {
     "id": 560,
     "name": "TESTOSTERONE UNDECANOATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "G03BA",
     "level4_name": "3-oxoandrosten (4) derivatives",
@@ -23613,7 +23591,7 @@
     "level4_code": "L01XX",
     "level4_name": "Other antineoplastic agents",
     "ahfs_category": "10:00 - Antineoplastic Agents - 319006",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -23624,7 +23602,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 313018",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -23635,7 +23613,7 @@
     "level4_code": "L01XL",
     "level4_name": "Antineoplastic cell and gene therapy",
     "ahfs_category": "10:00 - Antineoplastic Agents - 316007",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -23646,7 +23624,7 @@
     "level4_code": "B01AD",
     "level4_name": "Enzymes",
     "ahfs_category": "20:12.20 - Thrombolytic Agents - 300037",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -23657,7 +23635,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 382804",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -23668,7 +23646,7 @@
     "level4_code": "B02BC",
     "level4_name": "Local hemostatics",
     "ahfs_category": "20:28.16 - Hemostatics - 308035",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -23679,7 +23657,7 @@
     "level4_code": "H03AA",
     "level4_name": "Thyroid hormones",
     "ahfs_category": "68:36.04 - Thyroid Agents",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -23690,7 +23668,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "84:92 - Skin and Mucous Membrane Agents,",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -23701,7 +23679,7 @@
     "level4_code": "M05BX",
     "level4_name": "Other drugs affecting bone structure and mineralization",
     "ahfs_category": "92:24 - Bone Resorption Inhibitors - 379182",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -23712,7 +23690,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "92:36 - Disease-modifying Antirheumatic Drugs -",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -23723,7 +23701,7 @@
     "level4_code": "L01FD",
     "level4_name": "HER2 (Human Epidermal Growth Factor Receptor 2) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 399019",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -23734,7 +23712,7 @@
     "level4_code": "S01AD",
     "level4_name": "Antivirals",
     "ahfs_category": "10:00 - Antineoplastic Agents - 316030",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -23745,7 +23723,7 @@
     "level4_code": "L02AE",
     "level4_name": "Gonadotropin releasing hormone analogues",
     "ahfs_category": "68:18.08 - Gonadotropins - 300033",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -23756,7 +23734,7 @@
     "level4_code": "J07AE",
     "level4_name": "Cholera vaccines",
     "ahfs_category": "80:12 - Vaccines - 382812",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -23888,7 +23866,7 @@
     "level4_code": "L04AC",
     "level4_name": "Interleukin inhibitors",
     "ahfs_category": "84:92 - Skin and Mucous Membrane Agents,",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -24504,7 +24482,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 305009",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -24515,7 +24493,7 @@
     "level4_code": "J07XA",
     "level4_name": "Parasitic vaccines",
     "ahfs_category": "80:12 - Vaccines - 379189",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -24526,7 +24504,7 @@
     "level4_code": "J07XA",
     "level4_name": "Parasitic vaccines",
     "ahfs_category": "80:12 - Vaccines - 397005",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -24537,7 +24515,7 @@
     "level4_code": "J06BD",
     "level4_name": "Antiviral monoclonal antibodies",
     "ahfs_category": "80:04 - Antitoxins and Immune Globulins - 384038",
-    "who_mapping_type": "AHFS_CATEGORY_APPROXIMATION",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on AHFS_CATEGORY_APPROXIMATION"
   },
   {
@@ -24548,7 +24526,7 @@
     "level4_code": "L04AG",
     "level4_name": "Monoclonal antibodies",
     "ahfs_category": "56:92 - GI Drugs, Miscellaneous - 315017",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -24559,7 +24537,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 313012",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -24570,7 +24548,7 @@
     "level4_code": "A16AB",
     "level4_name": "Enzymes",
     "ahfs_category": "44:00 - Enzymes - 317066",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -24581,7 +24559,7 @@
     "level4_code": "B02BD",
     "level4_name": "Blood coagulation factors",
     "ahfs_category": "20:28.16 - Hemostatics - 317006",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -24592,7 +24570,7 @@
     "level4_code": "S01XA",
     "level4_name": "Other ophthalmologicals",
     "ahfs_category": "26:12 - Gene Therapy - 379191",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -24669,7 +24647,7 @@
     "level4_code": "J07BL",
     "level4_name": "Yellow fever vaccines",
     "ahfs_category": "",
-    "who_mapping_type": "VACCINE",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": null
   },
   {
@@ -24677,11 +24655,11 @@
     "name": "Yttrium-90 Ibritumomab tiuxetan",
     "status": "TARGET_FOR_MODERNIZATION",
     "topical_only": false,
-    "level4_code": null,
+    "level4_code": "V10XX",
     "level4_name": null,
     "ahfs_category": "",
-    "who_mapping_type": null,
-    "who_mapping_notes": null
+    "who_mapping_type": "exact",
+    "who_mapping_notes": "WHO substance: ibritumomab tiuxetan (90Y). Exact match."
   },
   {
     "id": 1643,
@@ -24878,7 +24856,7 @@
     "level4_code": "L01XX",
     "level4_name": "Other antineoplastic agents",
     "ahfs_category": "",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -24911,7 +24889,7 @@
     "level4_code": "V03AB",
     "level4_name": "Antidotes",
     "ahfs_category": "20:28.92 - Antihemorrhagic Agents, Miscellaneous -",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -24922,7 +24900,7 @@
     "level4_code": "L04AB",
     "level4_name": "Tumor necrosis factor alpha (TNF-alpha) inhibitors",
     "ahfs_category": "92:36 - Disease-modifying Antirheumatic Drugs -",
-    "who_mapping_type": "PARTIAL_NAME",
+    "who_mapping_type": "name_variant",
     "who_mapping_notes": "Approximated based on PARTIAL_NAME"
   },
   {
@@ -24933,7 +24911,7 @@
     "level4_code": "L01FA",
     "level4_name": "CD20 (Clusters of Differentiation 20) inhibitors",
     "ahfs_category": "10:00 - Antineoplastic Agents - 398003",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   },
   {
@@ -24944,7 +24922,7 @@
     "level4_code": "B02BX",
     "level4_name": "Other systemic hemostatics",
     "ahfs_category": "20:16 - Hematopoietic Agents - 308030",
-    "who_mapping_type": "EXACT",
+    "who_mapping_type": "exact",
     "who_mapping_notes": null
   }
 ]
