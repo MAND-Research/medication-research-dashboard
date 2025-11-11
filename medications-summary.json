@@ -211,7 +211,7 @@
   {
     "id": 1744,
     "name": "ACETYLCHOLINE CHLORIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "S01EB",
     "level4_name": "Parasympathomimetics",
@@ -431,7 +431,7 @@
   {
     "id": 1749,
     "name": "ALBUMIN HUMAN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -464,8 +464,8 @@
   {
     "id": 1750,
     "name": "ALCLOMETASONE DIPROPIONATE",
-    "status": "TARGET_FOR_MODERNIZATION",
-    "topical_only": false,
+    "status": "ALLOWED",
+    "topical_only": true,
     "level4_code": "D07AB",
     "level4_name": "Corticosteroids, moderately potent (group II)",
     "ahfs_category": "84:06.08 - Corticosteroids - 387002",
@@ -1355,7 +1355,7 @@
   {
     "id": 722,
     "name": "ARTEMETHER",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "P01BE",
     "level4_name": "Artemisinin and derivatives, plain",
@@ -1366,7 +1366,7 @@
   {
     "id": 723,
     "name": "ARTESUNATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "P01BE",
     "level4_name": "Artemisinin and derivatives, plain",
@@ -1520,7 +1520,7 @@
   {
     "id": 744,
     "name": "ATROPINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A03BA",
     "level4_name": "Belladonna alkaloids, tertiary amines",
@@ -1663,7 +1663,7 @@
   {
     "id": 1145,
     "name": "AZELAIC ACID",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "D10AX",
     "level4_name": "Other anti-acne preparations for topical use",
@@ -1828,7 +1828,7 @@
   {
     "id": 2239,
     "name": "Albiglutide",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A10BJ",
     "level4_name": "Glucagon-like peptide-1 (GLP-1) analogues",
@@ -2235,7 +2235,7 @@
   {
     "id": 1771,
     "name": "BECLOMETHASONE DIPROPIONATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -2565,7 +2565,7 @@
   {
     "id": 746,
     "name": "BETAMETHASONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A07EA",
     "level4_name": "Corticosteroids acting locally",
@@ -2576,7 +2576,7 @@
   {
     "id": 747,
     "name": "BETAMETHASONE BENZOATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A07EA",
     "level4_name": "Corticosteroids acting locally",
@@ -2730,7 +2730,7 @@
   {
     "id": 1778,
     "name": "BIRCH TRITERPENES",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -3027,7 +3027,7 @@
   {
     "id": 750,
     "name": "BUDESONIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A07EA",
     "level4_name": "Corticosteroids acting locally",
@@ -3412,7 +3412,7 @@
   {
     "id": 1149,
     "name": "CALCIPOTRIENE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "D05AX",
     "level4_name": "Other antipsoriatics for topical use",
@@ -3522,7 +3522,7 @@
   {
     "id": 2,
     "name": "CANTHARIDIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -3566,7 +3566,7 @@
   {
     "id": 1294,
     "name": "CAPREOMYCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J04AB",
     "level4_name": "Antibiotics",
@@ -3621,7 +3621,7 @@
   {
     "id": 1781,
     "name": "CARBENICILLIN DISODIUM",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "DISCONTINUED",
     "topical_only": false,
     "level4_code": "BETA-LACTAM ANTIBACTERIALS, PENICILLINS",
     "level4_name": "J01CA",
@@ -3632,7 +3632,7 @@
   {
     "id": 1782,
     "name": "CARBENICILLIN INDANYL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "DISCONTINUED",
     "topical_only": false,
     "level4_code": "BETA-LACTAM ANTIBACTERIALS, PENICILLINS",
     "level4_name": "J01CA",
@@ -3863,7 +3863,7 @@
   {
     "id": 1787,
     "name": "CEFDITOREN PIVOXIL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01DD",
     "level4_name": "Third-generation cephalosporins",
@@ -3973,7 +3973,7 @@
   {
     "id": 1788,
     "name": "CEFOTETAN DISODIUM",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01DC",
     "level4_name": "Second-generation cephalosporins",
@@ -4017,7 +4017,7 @@
   {
     "id": 1789,
     "name": "CEFPODOXIME PROXETIL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01DD",
     "level4_name": "Third-generation cephalosporins",
@@ -4094,7 +4094,7 @@
   {
     "id": 1790,
     "name": "CEFTOLOZANE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -4171,7 +4171,7 @@
   {
     "id": 1791,
     "name": "CEPHALOGLYCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "DISCONTINUED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -4281,7 +4281,7 @@
   {
     "id": 1793,
     "name": "CHENODIOL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -4501,7 +4501,7 @@
   {
     "id": 755,
     "name": "CHLORTETRACYCLINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A01AB",
     "level4_name": "Antiinfectives and antiseptics for local oral treatment",
@@ -4600,7 +4600,7 @@
   {
     "id": 1798,
     "name": "CHROMIC CHLORIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "V10AX",
     "level4_name": "Other antiinflammatory therapeutic radiopharmaceuticals",
@@ -4622,7 +4622,7 @@
   {
     "id": 1584,
     "name": "CICLESONIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "R01AD",
     "level4_name": "Corticosteroids",
@@ -4798,7 +4798,7 @@
   {
     "id": 1150,
     "name": "CLASCOTERONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "D10AX",
     "level4_name": "Other anti-acne preparations for topical use",
@@ -4897,8 +4897,8 @@
   {
     "id": 1800,
     "name": "CLOCORTOLONE PIVALATE",
-    "status": "TARGET_FOR_MODERNIZATION",
-    "topical_only": false,
+    "status": "ALLOWED",
+    "topical_only": true,
     "level4_code": "D07AB",
     "level4_name": "Corticosteroids, moderately potent (group II)",
     "ahfs_category": null,
@@ -5095,7 +5095,7 @@
   {
     "id": 1404,
     "name": "COLCHICINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "M04AC",
     "level4_name": "Preparations with no effect on uric acid metabolism",
@@ -5150,7 +5150,7 @@
   {
     "id": 761,
     "name": "COLISTIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A07AA",
     "level4_name": "Antibiotics",
@@ -5392,7 +5392,7 @@
   {
     "id": 1299,
     "name": "CYCLOSERINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J04AB",
     "level4_name": "Antibiotics",
@@ -5700,7 +5700,7 @@
   {
     "id": 1302,
     "name": "DALBAVANCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01XA",
     "level4_name": "Glycopeptide antibacterials",
@@ -5722,7 +5722,7 @@
   {
     "id": 1811,
     "name": "DALFOPRISTIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01FG",
     "level4_name": "Streptogramins",
@@ -5832,7 +5832,7 @@
   {
     "id": 1303,
     "name": "DAPTOMYCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01XX",
     "level4_name": "Other antibacterials",
@@ -6283,7 +6283,7 @@
   {
     "id": 765,
     "name": "DEXAMETHASONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A01AC",
     "level4_name": "Corticosteroids for local oral treatment",
@@ -6635,8 +6635,8 @@
   {
     "id": 1820,
     "name": "DIFLORASONE DIACETATE",
-    "status": "TARGET_FOR_MODERNIZATION",
-    "topical_only": false,
+    "status": "ALLOWED",
+    "topical_only": true,
     "level4_code": "D07AC",
     "level4_name": "Corticosteroids, potent (group III)",
     "ahfs_category": null,
@@ -6756,7 +6756,7 @@
   {
     "id": 1211,
     "name": "DIMETHYL SULFOXIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "G04BX",
     "level4_name": "Other urologicals",
@@ -7086,7 +7086,7 @@
   {
     "id": 1253,
     "name": "DOXERCALCIFEROL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "H05BX",
     "level4_name": "Other anti-parathyroid agents",
@@ -7141,7 +7141,7 @@
   {
     "id": 773,
     "name": "DRONABINOL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "A04AD",
     "level4_name": "Other antiemetics",
@@ -7394,7 +7394,7 @@
   {
     "id": 2263,
     "name": "Dulaglutide",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A10BJ",
     "level4_name": "Glucagon-like peptide-1 (GLP-1) analogues",
@@ -8054,7 +8054,7 @@
   {
     "id": 1162,
     "name": "ERYTHROMYCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "D10AF",
     "level4_name": "Antiinfectives for treatment of acne",
@@ -8065,7 +8065,7 @@
   {
     "id": 1163,
     "name": "ERYTHROMYCIN LACTOBIONATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "D10AF",
     "level4_name": "Antiinfectives for treatment of acne",
@@ -8219,7 +8219,7 @@
   {
     "id": 1830,
     "name": "ESTROPIPATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "G03CC",
     "level4_name": "Estrogens, combinations with other drugs",
@@ -8406,7 +8406,7 @@
   {
     "id": 1833,
     "name": "ETHYNODIOL DIACETATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -8538,7 +8538,7 @@
   {
     "id": 1836,
     "name": "EXENATIDE SYNTHETIC",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A10BJ",
     "level4_name": "Glucagon-like peptide-1 (GLP-1) analogues",
@@ -8747,7 +8747,7 @@
   {
     "id": 2269,
     "name": "Exenatide",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A10BJ",
     "level4_name": "Glucagon-like peptide-1 (GLP-1) analogues",
@@ -8901,7 +8901,7 @@
   {
     "id": 1840,
     "name": "FERRIC CARBOXYMALTOSE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -8912,7 +8912,7 @@
   {
     "id": 1841,
     "name": "FERRIC DERISOMALTOSE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -8934,7 +8934,7 @@
   {
     "id": 918,
     "name": "FERRIC MALTOL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "B03AB",
     "level4_name": "Iron trivalent, oral preparations",
@@ -8945,7 +8945,7 @@
   {
     "id": 919,
     "name": "FERRIC OXYHYDROXIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "B03AB",
     "level4_name": "Iron trivalent, oral preparations",
@@ -8956,7 +8956,7 @@
   {
     "id": 1843,
     "name": "FERRIC PYROPHOSPHATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -8978,7 +8978,7 @@
   {
     "id": 1844,
     "name": "FERUMOXYTOL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -9033,7 +9033,7 @@
   {
     "id": 783,
     "name": "FIDAXOMICIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A07AA",
     "level4_name": "Antibiotics",
@@ -9286,7 +9286,7 @@
   {
     "id": 1606,
     "name": "FLUNISOLIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "R01AD",
     "level4_name": "Corticosteroids",
@@ -9297,7 +9297,7 @@
   {
     "id": 1025,
     "name": "FLUOCINOLONE ACETONIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "C05AA",
     "level4_name": "Corticosteroids",
@@ -9363,7 +9363,7 @@
   {
     "id": 1027,
     "name": "FLUOROMETHOLONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "C05AA",
     "level4_name": "Corticosteroids",
@@ -9440,7 +9440,7 @@
   {
     "id": 784,
     "name": "FLUPREDNISOLONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A01AC",
     "level4_name": "Corticosteroids for local oral treatment",
@@ -9528,7 +9528,7 @@
   {
     "id": 1607,
     "name": "FLUTICASONE FUROATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "R01AD",
     "level4_name": "Corticosteroids",
@@ -9671,7 +9671,7 @@
   {
     "id": 1851,
     "name": "FOSFOMYCIN TROMETHAMINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01XX",
     "level4_name": "Other antibacterials",
@@ -9957,7 +9957,7 @@
   {
     "id": 1485,
     "name": "GABAPENTIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "NOT_ALLOWED",
     "topical_only": false,
     "level4_code": "N02BF",
     "level4_name": "Gabapentinoids",
@@ -10386,7 +10386,7 @@
   {
     "id": 1258,
     "name": "GLUCAGON",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "H04AA",
     "level4_name": "Glycogenolytic hormones",
@@ -10892,7 +10892,7 @@
   {
     "id": 425,
     "name": "HISTAMINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "L03AX",
     "level4_name": "Other immunostimulants",
@@ -10903,7 +10903,7 @@
   {
     "id": 528,
     "name": "HISTAMINE DIHYDROCHLORIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "L03AX",
     "level4_name": "Other immunostimulants",
@@ -11992,7 +11992,7 @@
   {
     "id": 719,
     "name": "ISAVUCONAZONIUM",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J02AC",
     "level4_name": "Triazole and tetrazole derivatives",
@@ -12509,7 +12509,7 @@
   {
     "id": 799,
     "name": "KANAMYCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A07AA",
     "level4_name": "Antibiotics",
@@ -12795,7 +12795,7 @@
   {
     "id": 1333,
     "name": "LEFAMULIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01XX",
     "level4_name": "Other antibacterials",
@@ -13235,7 +13235,7 @@
   {
     "id": 1337,
     "name": "LINCOMYCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01FF",
     "level4_name": "Lincosamides",
@@ -13290,7 +13290,7 @@
   {
     "id": 806,
     "name": "LIRAGLUTIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A10BJ",
     "level4_name": "Glucagon-like peptide-1 (GLP-1) analogues",
@@ -13477,7 +13477,7 @@
   {
     "id": 1911,
     "name": "LOTEPREDNOL ETABONATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "S01BA",
     "level4_name": "Corticosteroids, plain",
@@ -13697,7 +13697,7 @@
   {
     "id": 2277,
     "name": "Lixisenatide",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A10BJ",
     "level4_name": "Glucagon-like peptide-1 (GLP-1) analogues",
@@ -13939,7 +13939,7 @@
   {
     "id": 1917,
     "name": "MECLOCYCLINE SULFOSALICYLATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -14247,7 +14247,7 @@
   {
     "id": 1064,
     "name": "MESTRANOL",
-    "status": "NOT_ALLOWED",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "C01CA",
     "level4_name": "Adrenergic and dopaminergic agents",
@@ -14610,8 +14610,8 @@
   {
     "id": 733,
     "name": "METHYLPREDNISOLONE",
-    "status": "TARGET_FOR_MODERNIZATION",
-    "topical_only": false,
+    "status": "ALLOWED",
+    "topical_only": true,
     "level4_code": "D07AA",
     "level4_name": "Corticosteroids, weak (group I)",
     "ahfs_category": "68:04 - Adrenals - 382795",
@@ -15116,7 +15116,7 @@
   {
     "id": 1929,
     "name": "MOMETASONE FUROATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "R03BA",
     "level4_name": "Glucocorticoids",
@@ -15534,7 +15534,7 @@
   {
     "id": 829,
     "name": "NATAMYCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A01AB",
     "level4_name": "Antiinfectives and antiseptics for local oral treatment",
@@ -15699,7 +15699,7 @@
   {
     "id": 1345,
     "name": "NETILMICIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01GB",
     "level4_name": "Other aminoglycosides",
@@ -15941,7 +15941,7 @@
   {
     "id": 1625,
     "name": "NITRIC OXIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "R07AX",
     "level4_name": "Other respiratory system products",
@@ -16007,7 +16007,7 @@
   {
     "id": 1939,
     "name": "NORELGESTROMIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "G03DC",
     "level4_name": "Estren derivatives",
@@ -16040,7 +16040,7 @@
   {
     "id": 1940,
     "name": "NORETHYNODREL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "G03DC",
     "level4_name": "Estren derivatives",
@@ -16062,7 +16062,7 @@
   {
     "id": 1941,
     "name": "NORGESTIMATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "G03DC",
     "level4_name": "Estren derivatives",
@@ -16403,7 +16403,7 @@
   {
     "id": 1946,
     "name": "ORITAVANCIN DIPHOSPHATE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01XA",
     "level4_name": "Glycopeptide antibacterials",
@@ -16733,7 +16733,7 @@
   {
     "id": 845,
     "name": "OXYTETRACYCLINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A01AB",
     "level4_name": "Antiinfectives and antiseptics for local oral treatment",
@@ -16744,7 +16744,7 @@
   {
     "id": 1268,
     "name": "OXYTOCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "H01BB",
     "level4_name": "Oxytocin and analogues",
@@ -17063,7 +17063,7 @@
   {
     "id": 1270,
     "name": "PARICALCITOL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "H05BX",
     "level4_name": "Other anti-parathyroid agents",
@@ -17085,7 +17085,7 @@
   {
     "id": 848,
     "name": "PAROMOMYCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A07AA",
     "level4_name": "Antibiotics",
@@ -17844,7 +17844,7 @@
   {
     "id": 932,
     "name": "PHYTONADIONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "B02BA",
     "level4_name": "Vitamin K",
@@ -18097,7 +18097,7 @@
   {
     "id": 1354,
     "name": "PLAZOMICIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01GB",
     "level4_name": "Other aminoglycosides",
@@ -18141,7 +18141,7 @@
   {
     "id": 1978,
     "name": "PODOFILOX",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -18185,7 +18185,7 @@
   {
     "id": 854,
     "name": "POLYMYXIN B",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A07AA",
     "level4_name": "Antibiotics",
@@ -18416,7 +18416,7 @@
   {
     "id": 857,
     "name": "PREDNISOLONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A01AC",
     "level4_name": "Corticosteroids for local oral treatment",
@@ -18438,7 +18438,7 @@
   {
     "id": 858,
     "name": "PREDNISONE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A07EA",
     "level4_name": "Corticosteroids acting locally",
@@ -19164,7 +19164,7 @@
   {
     "id": 1114,
     "name": "QUINIDINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "C01BA",
     "level4_name": "Antiarrhythmics, class Ia",
@@ -19197,7 +19197,7 @@
   {
     "id": 1993,
     "name": "QUINUPRISTIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01FG",
     "level4_name": "Streptogramins",
@@ -19571,7 +19571,7 @@
   {
     "id": 1360,
     "name": "RIFABUTIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J04AB",
     "level4_name": "Antibiotics",
@@ -19593,7 +19593,7 @@
   {
     "id": 864,
     "name": "RIFAMYCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A07AA",
     "level4_name": "Antibiotics",
@@ -19604,7 +19604,7 @@
   {
     "id": 1361,
     "name": "RIFAPENTINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J04AB",
     "level4_name": "Antibiotics",
@@ -20141,17 +20141,6 @@
     "who_mapping_notes": "Found in WHO as combination product: valsartan and sacubitril"
   },
   {
-    "id": 2002,
-    "name": "SAFFLOWER OIL",
-    "status": "TARGET_FOR_MODERNIZATION",
-    "topical_only": false,
-    "level4_code": "A06AB",
-    "level4_name": "Contact laxatives",
-    "ahfs_category": null,
-    "who_mapping_type": "name_variant",
-    "who_mapping_notes": "Automatically mapped via name_variant search on 2025-10-16"
-  },
-  {
     "id": 1538,
     "name": "SAFINAMIDE",
     "status": "TARGET_FOR_MODERNIZATION",
@@ -20253,7 +20242,7 @@
   {
     "id": 869,
     "name": "SCOPOLAMINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A04AD",
     "level4_name": "Other antiemetics",
@@ -20363,7 +20352,7 @@
   {
     "id": 2008,
     "name": "SELENIOUS ACID",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -20440,7 +20429,7 @@
   {
     "id": 870,
     "name": "SEMAGLUTIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A10BJ",
     "level4_name": "Glucagon-like peptide-1 (GLP-1) analogues",
@@ -20572,7 +20561,7 @@
   {
     "id": 1183,
     "name": "SILVER SULFADIAZINE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "D06BA",
     "level4_name": "Sulfonamides",
@@ -20814,7 +20803,7 @@
   {
     "id": 1369,
     "name": "SPECTINOMYCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "DISCONTINUED",
     "topical_only": false,
     "level4_code": "J01XX",
     "level4_name": "Other antibacterials",
@@ -20825,7 +20814,7 @@
   {
     "id": 2013,
     "name": "SPINOSAD",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -22035,7 +22024,7 @@
   {
     "id": 1380,
     "name": "TELAVANCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01XA",
     "level4_name": "Glycopeptide antibacterials",
@@ -22563,7 +22552,7 @@
   {
     "id": 2038,
     "name": "TICARCILLIN DISODIUM",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "J01CA",
     "level4_name": "Penicillins with extended spectrum",
@@ -22717,7 +22706,7 @@
   {
     "id": 882,
     "name": "TIRZEPATIDE",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A10BX",
     "level4_name": "Other blood glucose lowering drugs, excl. insulins",
@@ -23850,7 +23839,7 @@
   {
     "id": 2063,
     "name": "URSODIOL",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": null,
     "level4_name": null,
@@ -23993,7 +23982,7 @@
   {
     "id": 891,
     "name": "VANCOMYCIN",
-    "status": "TARGET_FOR_MODERNIZATION",
+    "status": "ALLOWED",
     "topical_only": false,
     "level4_code": "A07AA",
     "level4_name": "Antibiotics",

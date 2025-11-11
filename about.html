@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Medication Research Database</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.7;
+            color: #2C3E50;
+            background: #F9FAFB;
+        }
+
+        /* MAND Header */
+        .mand-header {
+            background: #FFFFFF;
+            border-bottom: 1px solid #E5E7EB;
+            padding: 1.5rem 0;
+        }
+
+        .mand-header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .mand-logo {
+            color: #4A7C59;
+        }
+
+        .mand-logo-text {
+            font-size: 1.8rem;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 0.25rem;
+            line-height: 1;
+        }
+
+        .mand-logo-subtitle {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #6B7280;
+            display: block;
+            line-height: 1.2;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #4A7C59 0%, #5A9068 100%);
+            color: white;
+            padding: 3rem 0;
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.625rem 1.25rem;
+            border: 2px solid rgba(255,255,255,0.5);
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .back-link:hover {
+            background: rgba(255,255,255,0.2);
+            border-color: white;
+        }
+
+        /* Main Content */
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .section {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            border: 1px solid #E5E7EB;
+        }
+
+        .section h2 {
+            color: #4A7C59;
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid #E5E7EB;
+        }
+
+        .section h3 {
+            color: #374151;
+            font-size: 1.35rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .section h4 {
+            color: #4B5563;
+            font-size: 1.1rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .section p {
+            margin-bottom: 1rem;
+            color: #4B5563;
+        }
+
+        .section ul, .section ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .section li {
+            margin-bottom: 0.5rem;
+            color: #4B5563;
+        }
+
+        .highlight-box {
+            background: #F0F9F4;
+            border-left: 4px solid #4A7C59;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        .badge-example {
+            display: inline-block;
+            padding: 0.15rem 0.35rem;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin: 0 0.25rem;
+            vertical-align: middle;
+        }
+
+        .badge-name-variant {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .badge-approximation {
+            background: #f59e0b;
+            color: white;
+        }
+
+        .badge-combination {
+            background: #8b5cf6;
+            color: white;
+        }
+
+        .badge-not-in-who {
+            background: #6b7280;
+            color: white;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .stat-card {
+            background: #F9FAFB;
+            padding: 1.25rem;
+            border-radius: 8px;
+            border: 1px solid #E5E7EB;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #4A7C59;
+            display: block;
+        }
+
+        .stat-label {
+            color: #6B7280;
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
+        }
+
+        code {
+            background: #F3F4F6;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #DC2626;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.75rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .section {
+                padding: 1.5rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- MAND Header -->
+    <div class="mand-header">
+        <div class="mand-header-content">
+            <div class="mand-logo">
+                <span class="mand-logo-text">MAND</span>
+                <span class="mand-logo-subtitle">Maine Association of Naturopathic Doctors</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1>About This Database</h1>
+            <p>Understanding the medication research methodology and classification systems</p>
+            <a href="index_enhanced_mand.html" class="back-link">← Back to Database</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Overview Section -->
+        <div class="section">
+            <h2>Database Overview</h2>
+            <p>This comprehensive medication research database was developed to analyze pharmaceutical substances available in the United States and assess their connections to natural sources and therapeutic pathways. The database serves as a reference tool for understanding medication classifications and their relationship to naturopathic practice.</p>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">2,265</span>
+                    <span class="stat-label">Total Medications</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">554</span>
+                    <span class="stat-label">WHO ATC Categories</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">301</span>
+                    <span class="stat-label">AHFS Therapeutic Classes</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">439</span>
+                    <span class="stat-label">Currently Allowed Medications</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Sources Section -->
+        <div class="section">
+            <h2>Data Sources</h2>
+
+            <h3>FDA Orange Book and Purple Book</h3>
+            <p>The medications in this database are sourced from two primary FDA publications:</p>
+
+            <ul>
+                <li><strong>FDA Orange Book</strong> - Contains approved drug products with therapeutic equivalence evaluations for prescription and over-the-counter pharmaceutical products</li>
+                <li><strong>FDA Purple Book</strong> - Lists licensed biological products, including biosimilars and interchangeable biosimilars</li>
+            </ul>
+
+            <p>These publications represent all medications that are legally available for use in the United States. The database focuses on <strong>active moieties</strong> - the chemically active substances responsible for therapeutic effects - rather than individual formulations or brand names.</p>
+
+            <div class="highlight-box">
+                <p><strong>Important Note:</strong> This database catalogs the chemical substances themselves, not specific drug products or formulations. A single active moiety may appear in multiple branded medications, dosage forms, or combination products.</p>
+            </div>
+        </div>
+
+        <!-- WHO ATC Classification Section -->
+        <div class="section">
+            <h2>WHO ATC Classification System</h2>
+
+            <h3>What is WHO ATC?</h3>
+            <p>The <strong>WHO Anatomical Therapeutic Chemical (ATC)</strong> classification system is an international standard maintained by the World Health Organization. Unlike chemical classification systems, WHO ATC categorizes medications based on their <strong>therapeutic use and mechanism of action in the body</strong>.</p>
+
+            <h3>How WHO ATC Works</h3>
+            <p>The ATC system uses a hierarchical structure with five levels:</p>
+
+            <ol>
+                <li><strong>Level 1:</strong> Anatomical main group (e.g., "N" = Nervous System)</li>
+                <li><strong>Level 2:</strong> Therapeutic subgroup (e.g., "N02" = Analgesics)</li>
+                <li><strong>Level 3:</strong> Pharmacological subgroup (e.g., "N02B" = Other analgesics and antipyretics)</li>
+                <li><strong>Level 4:</strong> Chemical subgroup (e.g., "N02BE" = Anilides)</li>
+                <li><strong>Level 5:</strong> Chemical substance (e.g., "N02BE01" = Paracetamol)</li>
+            </ol>
+
+            <p>This database primarily displays <strong>Level 4 categories</strong>, which group medications by their therapeutic and chemical properties.</p>
+
+            <h3>Why WHO ATC Classification?</h3>
+            <p>The WHO ATC system was chosen because it emphasizes <strong>clinical use rather than chemical structure</strong>. This functional approach helps us understand:</p>
+
+            <ul>
+                <li>How medications are actually used in clinical practice</li>
+                <li>Therapeutic alternatives within the same category</li>
+                <li>Whether natural therapies exist for similar therapeutic purposes</li>
+                <li>Patterns of medication use across different body systems</li>
+            </ul>
+
+            <h3>Multiple Categories Per Substance</h3>
+            <p>Because WHO ATC is based on therapeutic use, a single chemical substance may appear in multiple WHO categories if it has different therapeutic applications. For example:</p>
+
+            <ul>
+                <li>A corticosteroid might be classified under both dermatological preparations (for topical use) and systemic hormones (for oral/injectable use)</li>
+                <li>An antibiotic might appear in different categories depending on its primary therapeutic indication</li>
+            </ul>
+
+            <p><strong>In this database, we have mapped each medication to its most prominent or primary therapeutic use category.</strong></p>
+        </div>
+
+        <!-- Mapping Challenges Section -->
+        <div class="section">
+            <h2>WHO Mapping Methodology & Challenges</h2>
+
+            <h3>The Mapping Process</h3>
+            <p>We attempted to map all FDA-listed medications to their corresponding WHO ATC classifications. However, this process revealed several challenges:</p>
+
+            <h4>1. Name Differences (US vs. International)</h4>
+            <p>The FDA uses United States Adopted Names (USAN), while WHO uses International Nonproprietary Names (INN). Sometimes these differ for the same substance:</p>
+            <ul>
+                <li><strong>FDA Name:</strong> Acetaminophen → <strong>WHO Name:</strong> Paracetamol</li>
+                <li><strong>FDA Name:</strong> Epinephrine → <strong>WHO Name:</strong> Adrenaline</li>
+            </ul>
+            <p>When we identified these name variants, we verified the chemical equivalence and mapped to the correct WHO code.</p>
+
+            <h4>2. Chemical vs. Functional Classification</h4>
+            <p>FDA publications list medications by their <strong>chemical substance names</strong>, while WHO ATC classifies by <strong>therapeutic function</strong>. This creates situations where:</p>
+            <ul>
+                <li>A chemical substance doesn't have an exact WHO substance code but fits within a therapeutic category</li>
+                <li>Regional variations exist (some medications are US-specific and not in the international WHO database)</li>
+                <li>New medications may not yet be assigned WHO codes</li>
+            </ul>
+
+            <h4>3. Combination Products vs. Single Substances</h4>
+            <p>Some substances listed in FDA databases are components that only appear in combination products. WHO ATC may classify the <strong>combination</strong> rather than individual components.</p>
+
+            <h3>Mapping Quality Indicators</h3>
+            <p>To maintain transparency about mapping confidence, we've implemented a badge system that appears in the WHO ATC column:</p>
+
+            <h4><span class="badge-example badge-name-variant">※</span> Name Variant (24.7% of medications)</h4>
+            <p>The US/FDA name differs from the WHO international name, but the WHO code and therapeutic category are clinically accurate. These are verified matches despite the name difference.</p>
+            <p><em>Example: ACETAMINOPHEN → WHO Code N02BE (Anilides) - internationally known as Paracetamol</em></p>
+
+            <h4><span class="badge-example badge-approximation">⚠</span> Approximation (0.8% of medications)</h4>
+            <p>The medication is mapped to a general therapeutic category because a specific WHO substance code may not exist. The category accurately represents the medication's therapeutic use.</p>
+            <p><em>Example: A specific branded formulation mapped to its general drug class category</em></p>
+
+            <h4><span class="badge-example badge-combination">C</span> Combination Component (1.0% of medications)</h4>
+            <p>This substance is used only as a component in combination products. WHO ATC may list only the combination product code rather than individual components.</p>
+            <p><em>Example: Beta-lactamase inhibitors used only with antibiotics</em></p>
+
+            <h4><span class="badge-example badge-not-in-who">⊘</span> Not in WHO Database (5.3% of medications)</h4>
+            <p>The medication is not found in the WHO ATC classification system. This typically occurs with discontinued medications, regional-specific products, or very new approvals.</p>
+
+            <h4>No Badge - Exact Match (67.2% of medications)</h4>
+            <p>The FDA active moiety name directly matches a WHO substance name. These represent the highest confidence mappings.</p>
+
+            <div class="highlight-box">
+                <p><strong>Mapping Transparency:</strong> All mappings include explanatory notes visible in the database. We've prioritized accuracy and transparency over coverage - when uncertain, we've clearly indicated approximations rather than claiming exact matches.</p>
+            </div>
+        </div>
+
+        <!-- AHFS Classification Section -->
+        <div class="section">
+            <h2>AHFS Pharmacologic-Therapeutic Classification</h2>
+
+            <h3>What is AHFS?</h3>
+            <p>The <strong>American Hospital Formulary Service (AHFS) Pharmacologic-Therapeutic Classification System</strong> is developed and maintained by the American Society of Health-System Pharmacists (ASHP). This system is widely used in North America for organizing hospital formularies, pharmacy information systems, and drug utilization monitoring.</p>
+
+            <h3>How AHFS Classification Works</h3>
+            <p>AHFS uses a hierarchical numeric coding system with up to four levels:</p>
+
+            <ul>
+                <li><strong>First Level (XX:00:00.00):</strong> Broad therapeutic or pharmacologic category</li>
+                <li><strong>Second Level (XX:XX:00.00):</strong> Therapeutic subgroup</li>
+                <li><strong>Third Level (XX:XX:XX.00):</strong> More specific pharmacologic class</li>
+                <li><strong>Fourth Level (XX:XX:XX.XX):</strong> Most specific classification</li>
+            </ul>
+
+            <p><strong>Example:</strong> <code>8:12.06.12</code> - Third Generation Cephalosporins</p>
+            <ul>
+                <li><code>8:</code> Anti-infective Agents</li>
+                <li><code>8:12</code> Antibacterials</li>
+                <li><code>8:12.06</code> Cephalosporins</li>
+                <li><code>8:12.06.12</code> Third Generation Cephalosporins</li>
+            </ul>
+
+            <h3>AHFS vs. WHO ATC</h3>
+            <p>While both systems classify medications therapeutically, they differ in important ways:</p>
+
+            <table style="width: 100%; border-collapse: collapse; margin: 1.5rem 0;">
+                <tr style="background: #F9FAFB; border-bottom: 2px solid #E5E7EB;">
+                    <th style="padding: 0.75rem; text-align: left; font-weight: 600;">WHO ATC</th>
+                    <th style="padding: 0.75rem; text-align: left; font-weight: 600;">AHFS</th>
+                </tr>
+                <tr style="border-bottom: 1px solid #E5E7EB;">
+                    <td style="padding: 0.75rem;">International standard</td>
+                    <td style="padding: 0.75rem;">North American focus</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #E5E7EB;">
+                    <td style="padding: 0.75rem;">Emphasizes anatomical site of action</td>
+                    <td style="padding: 0.75rem;">Emphasizes pharmacologic/therapeutic use</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #E5E7EB;">
+                    <td style="padding: 0.75rem;">Alphanumeric codes (e.g., N02BE)</td>
+                    <td style="padding: 0.75rem;">Numeric codes (e.g., 28:08.92)</td>
+                </tr>
+                <tr>
+                    <td style="padding: 0.75rem;">Official database purchased for research</td>
+                    <td style="padding: 0.75rem;">Proprietary system (limited availability)</td>
+                </tr>
+            </table>
+
+            <h3>Database Access and Limitations</h3>
+
+            <h4>WHO ATC Classification Database</h4>
+            <p>For this project, we <strong>purchased the official WHO ATC classification database</strong> at a reasonable cost. This provided us with comprehensive, authoritative data on medication classifications, enabling accurate mapping of FDA substances to international therapeutic categories.</p>
+
+            <h4>AHFS Classification Access Challenges</h4>
+            <p>We made efforts to obtain the official AHFS Pharmacologic-Therapeutic Classification database to ensure comprehensive dual-classification coverage. However, despite our attempts to purchase access, we were unable to obtain the complete AHFS database. The scope and scale of this research project did not align with the available licensing or acquisition options for AHFS data.</p>
+
+            <p><strong>Alternative AHFS data sources used:</strong></p>
+            <ul>
+                <li>Publicly available AHFS category lists from state pharmacy boards</li>
+                <li>Published pharmaceutical references and textbooks</li>
+                <li>Cross-referencing with available online resources and documentation</li>
+            </ul>
+
+            <div class="highlight-box">
+                <p><strong>Note:</strong> AHFS classifications in this database represent our best effort based on publicly available documentation. While WHO ATC classifications are comprehensive and verified against the official WHO database, AHFS coverage is more limited due to our inability to obtain the complete proprietary database.</p>
+            </div>
+        </div>
+
+        <!-- Natural Connection Research Section -->
+        <div class="section">
+            <h2>Individual Medication Research</h2>
+
+            <h3>Comprehensive Natural Connection Analysis</h3>
+            <p>For each medication in the database, we have conducted research to understand its relationship to natural substances and biological pathways. These research reports are accessible by clicking <strong>"View Report"</strong> for any medication in the database.</p>
+
+            <h3>What the Reports Include</h3>
+            <p>Each medication report analyzes:</p>
+
+            <ul>
+                <li><strong>Source and Origin:</strong> Whether the medication is derived from natural sources, semi-synthetic, or fully synthetic</li>
+                <li><strong>Natural Pathway Connection:</strong> Whether the medication works through naturally occurring biochemical pathways</li>
+                <li><strong>Endogenous Compounds:</strong> Whether the medication is identical or similar to substances naturally produced in the human body</li>
+                <li><strong>Therapeutic Context:</strong> How the medication is used clinically and what conditions it treats</li>
+                <li><strong>Formulary Considerations:</strong> Relevance to naturopathic practice and formulary decisions</li>
+            </ul>
+
+            <h3>Categories of Natural Connection</h3>
+            <p>Medications are evaluated across several categories:</p>
+
+            <ol>
+                <li><strong>Direct Natural Source:</strong> Extracted or isolated directly from plants, animals, minerals, or microorganisms</li>
+                <li><strong>Semi-Synthetic from Natural Source:</strong> Chemically modified from a natural starting material</li>
+                <li><strong>Structural Analog of Natural Compound:</strong> Synthetic but designed to mimic natural substances</li>
+                <li><strong>Endogenous Compound:</strong> Identical or similar to substances naturally found in the human body</li>
+                <li><strong>Biosynthetic Product:</strong> Produced through fermentation or biotechnology processes</li>
+                <li><strong>Works Through Natural Pathways:</strong> Acts on naturally occurring receptors or biochemical processes</li>
+                <li><strong>Facilitates Natural Processes:</strong> Supports or enhances the body's own physiological mechanisms</li>
+            </ol>
+
+            <p>These categories are not mutually exclusive - many medications have connections across multiple categories.</p>
+        </div>
+
+        <!-- Category Research Section -->
+        <div class="section">
+            <h2>WHO Category Research</h2>
+
+            <h3>Therapeutic Category Analysis</h3>
+            <p>In addition to individual medication reports, we have created comprehensive research reports for WHO ATC Level 4 categories. These category reports can be viewed by clicking on any WHO category link in the database.</p>
+
+            <h3>What Category Reports Include</h3>
+            <p>Each WHO category report provides:</p>
+
+            <ul>
+                <li><strong>Category Overview:</strong> Description of the therapeutic purpose and common mechanisms of action</li>
+                <li><strong>Typical Clinical Uses:</strong> What conditions these medications typically treat</li>
+                <li><strong>Natural vs. Synthetic Profile:</strong> Analysis of how many medications in the category are naturally derived vs. synthetic</li>
+                <li><strong>Natural Therapy Alternatives:</strong> Whether natural therapeutic approaches exist for similar conditions</li>
+                <li><strong>Naturopathic Considerations:</strong> Relevance to naturopathic practice and potential areas of integration</li>
+                <li><strong>Medication List by Status:</strong> All medications in the category grouped by formulary status (Allowed, Not Allowed, Under Review, etc.)</li>
+            </ul>
+
+            <p>This categorical view helps identify patterns and understand entire therapeutic classes rather than individual medications in isolation.</p>
+        </div>
+
+        <!-- Methodology Section -->
+        <div class="section">
+            <h2>Research Methodology</h2>
+
+            <h3>Data Collection and Validation</h3>
+            <p>This database was created through a multi-stage process:</p>
+
+            <ol>
+                <li><strong>Source Data Extraction:</strong> Active moieties identified from FDA Orange Book and Purple Book</li>
+                <li><strong>WHO ATC Mapping:</strong> Automated and manual matching to WHO ATC classification system</li>
+                <li><strong>AHFS Classification:</strong> Cross-referencing with available AHFS category documentation</li>
+                <li><strong>Natural Connection Research:</strong> Comprehensive literature review for each medication</li>
+                <li><strong>Formulary Status Evaluation:</strong> Assessment against current Maine naturopathic formulary rules</li>
+                <li><strong>Validation and Review:</strong> Multiple rounds of data verification and correction</li>
+            </ol>
+
+            <h3>Intended Use</h3>
+            <p>This database is designed to serve as:</p>
+
+            <ul>
+                <li>A reference tool for understanding medication classifications and natural connections</li>
+                <li>A resource for evaluating formulary inclusion decisions</li>
+                <li>An educational tool for understanding the relationship between pharmaceutical medications and natural therapeutics</li>
+                <li>A comprehensive catalog of medications available in the United States with therapeutic classification</li>
+            </ul>
+
+            <div class="highlight-box">
+                <p><strong>Important Disclaimer:</strong> This database is for research and reference purposes. It does not constitute medical advice, prescribing guidance, or regulatory approval. All prescribing decisions should be made in accordance with applicable laws, regulations, and clinical judgment.</p>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="section">
+            <h2>Questions or Feedback</h2>
+            <p>For questions about this database, its methodology, or the underlying research, please contact the Maine Association of Naturopathic Doctors.</p>
+
+            <p style="margin-top: 2rem;">
+                <a href="index_enhanced_mand.html" class="back-link" style="color: #4A7C59; border-color: #4A7C59;">← Return to Medication Database</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

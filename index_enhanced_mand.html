@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAND Medication Research Database</title>
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #2C3E50;
+            background: #FFFFFF;
+        }
+
+        /* MAND Header */
+        .mand-header {
+            background: #FFFFFF;
+            border-bottom: 1px solid #E5E7EB;
+            padding: 1.5rem 0;
+        }
+
+        .mand-header-content {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .mand-logo {
+            color: #4A7C59;
+        }
+
+        .mand-logo-text {
+            font-size: 1.8rem;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 0.25rem;
+            line-height: 1;
+        }
+
+        .mand-logo-subtitle {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #6B7280;
+            display: block;
+            line-height: 1.2;
+        }
+
+        .about-link {
+            color: #4A7C59;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 2px solid #4A7C59;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .about-link:hover {
+            background: #4A7C59;
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #4A7C59 0%, #5A9068 100%);
+            color: white;
+            padding: 3rem 0;
+        }
+
+        .hero-content {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+            margin-bottom: 2rem;
+        }
+
+
+        /* View Toggle Buttons */
+        .view-toggle {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1.5rem;
+        }
+
+        .view-btn {
+            padding: 0.75rem 1.5rem;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            background: transparent;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .view-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .view-btn.active {
+            background: white;
+            color: #4A7C59;
+            border-color: white;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        /* Filters Container */
+        .filters-container {
+            background: #FFFFFF;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            margin-bottom: 2rem;
+            border: 1px solid #E5E7EB;
+        }
+
+        .filter-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .filter-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .filter-group label {
+            display: block;
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+        }
+
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .filter-btn {
+            padding: 0.625rem 1.25rem;
+            border: 2px solid #E5E7EB;
+            background: white;
+            color: #6B7280;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .filter-btn:hover {
+            border-color: #4A7C59;
+            color: #4A7C59;
+            background: #F0F9F4;
+        }
+
+        .filter-btn.active {
+            background: #4A7C59;
+            color: white;
+            border-color: #4A7C59;
+        }
+
+        .filter-select {
+            padding: 0.625rem 1rem;
+            border: 2px solid #E5E7EB;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            color: #374151;
+            background: white;
+            cursor: pointer;
+            min-width: 320px;
+            transition: all 0.3s;
+        }
+
+        .filter-select:hover,
+        .filter-select:focus {
+            border-color: #4A7C59;
+            outline: none;
+        }
+
+        /* Table Container */
+        .table-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            overflow-x: auto;
+            border: 1px solid #E5E7EB;
+        }
+
+        table.dataTable {
+            width: 100% !important;
+            font-size: 0.9rem;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+
+        table.dataTable thead th {
+            background: #F9FAFB;
+            font-weight: 600;
+            padding: 1rem;
+            color: #374151;
+            border-bottom: 2px solid #E5E7EB;
+        }
+
+        table.dataTable tbody td {
+            padding: 1rem;
+            vertical-align: top;
+            border-bottom: 1px solid #F3F4F6;
+        }
+
+        table.dataTable tbody tr:hover {
+            background-color: #F9FAFB;
+        }
+
+        /* Status Badges */
+        .status-badge {
+            display: inline-block;
+            padding: 0.375rem 0.875rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .status-ALLOWED {
+            background: #D1FAE5;
+            color: #065F46;
+        }
+
+        .status-NOT_ALLOWED {
+            background: #FEE2E2;
+            color: #991B1B;
+        }
+
+        .status-TARGET_FOR_MODERNIZATION {
+            background: #FEF3C7;
+            color: #92400E;
+        }
+
+        .status-DISCONTINUED {
+            background: #E5E7EB;
+            color: #4B5563;
+        }
+
+        .status-TOPICAL_ONLY {
+            background: #DBEAFE;
+            color: #1E40AF;
+        }
+
+        /* Classification Codes */
+        .atc-code {
+            display: inline-block;
+            background: #EFF6FF;
+            padding: 0.25rem 0.625rem;
+            border-radius: 6px;
+            font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+            font-size: 0.85rem;
+            margin-bottom: 0.375rem;
+            color: #1E40AF;
+            font-weight: 600;
+        }
+
+        .ahfs-code {
+            display: inline-block;
+            background: #F3E8FF;
+            padding: 0.25rem 0.625rem;
+            border-radius: 6px;
+            font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+            font-size: 0.85rem;
+            margin-bottom: 0.375rem;
+            color: #6B21A8;
+            font-weight: 600;
+        }
+
+        .classification-link {
+            color: #4A7C59;
+            text-decoration: none;
+            font-weight: 500;
+            cursor: pointer;
+            transition: color 0.3s;
+            display: block;
+            margin-top: 0.375rem;
+        }
+
+        .classification-link:hover {
+            color: #3A6249;
+            text-decoration: underline;
+        }
+
+        /* WHO Mapping Type Badges */
+        .mapping-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.15rem 0.35rem;
+            border-radius: 3px;
+            margin-left: 0.25rem;
+            margin-right: 0.25rem;
+            vertical-align: middle;
+            cursor: help;
+            line-height: 1;
+        }
+
+        .badge-name-variant {
+            background: #3b82f6;
+            color: white;
+            border: 1px solid #2563eb;
+        }
+
+        .badge-approximation {
+            background: #f59e0b;
+            color: white;
+            border: 1px solid #d97706;
+        }
+
+        .badge-combination {
+            background: #8b5cf6;
+            color: white;
+            border: 1px solid #7c3aed;
+        }
+
+        .badge-not-in-who {
+            background: #6b7280;
+            color: white;
+            border: 1px solid #4b5563;
+        }
+
+        .badge-unknown {
+            background: #dc2626;
+            color: white;
+            border: 1px solid #b91c1c;
+        }
+
+        /* ATC Code pill variations */
+        .atc-code-approximation {
+            background: #fef3c7;
+            color: #92400e;
+            border-color: #f59e0b;
+        }
+
+        .atc-code-combination {
+            background: #ede9fe;
+            color: #5b21b6;
+            border-color: #8b5cf6;
+        }
+
+        .atc-code-not-in-who {
+            background: #f3f4f6;
+            color: #374151;
+            border-color: #9ca3af;
+        }
+
+        .category-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #6B7280;
+            margin-top: 0.625rem;
+            margin-bottom: 0.375rem;
+            letter-spacing: 0.5px;
+        }
+
+        .category-label:first-child {
+            margin-top: 0;
+        }
+
+        /* Action Buttons */
+        .btn-view {
+            background: #4A7C59;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .btn-view:hover {
+            background: #3A6249;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(74, 124, 89, 0.3);
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            overflow: auto;
+        }
+
+        .modal-content {
+            background: white;
+            margin: 2% auto;
+            padding: 2.5rem;
+            width: 90%;
+            max-width: 1200px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid #E5E7EB;
+        }
+
+        .modal-header h2 {
+            color: #4A7C59;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .close {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #9CA3AF;
+            cursor: pointer;
+            line-height: 1;
+            transition: color 0.3s;
+        }
+
+        .close:hover {
+            color: #4B5563;
+        }
+
+        /* Report Content Styling */
+        .report-content {
+            line-height: 1.8;
+            color: #374151;
+        }
+
+        .markdown-report h1 {
+            color: #4A7C59 !important;
+            font-size: 1.75rem !important;
+            margin-top: 2rem !important;
+            margin-bottom: 1rem !important;
+            font-weight: 700 !important;
+        }
+
+        .markdown-report h2 {
+            color: #3A6249 !important;
+            font-size: 1.4rem !important;
+            margin-top: 1.75rem !important;
+            margin-bottom: 0.875rem !important;
+            font-weight: 600 !important;
+        }
+
+        .markdown-report h3 {
+            color: #4B5563 !important;
+            font-size: 1.2rem !important;
+            margin-top: 1.5rem !important;
+            margin-bottom: 0.75rem !important;
+            font-weight: 600 !important;
+        }
+
+        .markdown-report ul,
+        .markdown-report ol {
+            margin-top: 0.75rem !important;
+            margin-bottom: 1rem !important;
+            margin-left: 2rem !important;
+            padding-left: 0 !important;
+        }
+
+        .markdown-report li {
+            margin-bottom: 0.5rem !important;
+            line-height: 1.7 !important;
+        }
+
+        .markdown-report p {
+            margin-bottom: 1rem !important;
+            line-height: 1.8 !important;
+        }
+
+        .markdown-report code {
+            background: #F3F4F6 !important;
+            padding: 0.2rem 0.4rem !important;
+            border-radius: 4px !important;
+            font-family: 'SF Mono', Monaco, monospace !important;
+            font-size: 0.9em !important;
+            color: #DC2626 !important;
+        }
+
+        .markdown-report blockquote {
+            border-left: 4px solid #4A7C59 !important;
+            padding-left: 1rem !important;
+            margin: 1rem 0 !important;
+            color: #6B7280 !important;
+        }
+
+        /* Evidence Categories Box */
+        .evidence-categories-box {
+            background: #F9FAFB !important;
+            padding: 1.5rem !important;
+            border-radius: 12px !important;
+            margin: 1.5rem 0 !important;
+            border: 1px solid #E5E7EB !important;
+        }
+
+        .evidence-categories-box h4 {
+            margin: 0 0 1rem 0 !important;
+            color: #374151 !important;
+            font-size: 1.1rem !important;
+            font-weight: 600 !important;
+        }
+
+        .checkbox-checked {
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            width: 24px !important;
+            height: 24px !important;
+            background: #4A7C59 !important;
+            color: white !important;
+            border-radius: 6px !important;
+            margin-right: 0.75rem !important;
+            font-weight: bold !important;
+            font-size: 0.85rem !important;
+        }
+
+        .checkbox-unchecked {
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            width: 24px !important;
+            height: 24px !important;
+            border: 2px solid #D1D5DB !important;
+            background: white !important;
+            border-radius: 6px !important;
+            margin-right: 0.75rem !important;
+        }
+
+        /* Loading & Error States */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: #4A7C59;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        .error {
+            background: #FEE2E2;
+            color: #991B1B;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            border: 1px solid #FCA5A5;
+        }
+
+        /* Classification Section */
+        .classification-section {
+            background: #F9FAFB;
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+            border: 1px solid #E5E7EB;
+        }
+
+        .classification-section h3 {
+            color: #4A7C59;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.75rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+
+            .modal-content {
+                width: 95%;
+                padding: 1.5rem;
+            }
+
+            .filter-select {
+                min-width: 100%;
+            }
+
+            table.dataTable {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- MAND Header -->
+    <div class="mand-header">
+        <div class="mand-header-content">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div class="mand-logo">
+                    <span class="mand-logo-text">MAND</span>
+                    <span class="mand-logo-subtitle">Maine Association of Naturopathic Doctors</span>
+                </div>
+                <a href="about.html" class="about-link">About This Database</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Medication Research Database</h1>
+            <p>Comprehensive analysis with WHO ATC and AHFS classifications</p>
+
+
+            <!-- View Toggle -->
+            <div class="view-toggle" style="margin-top: 2rem;">
+                <button class="view-btn active" id="view-medications">Medications View</button>
+                <button class="view-btn" id="view-categories">WHO Categories View</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Medications View -->
+    <div class="container" id="medications-view">
+        <div class="filters-container">
+            <div class="filter-group">
+                <label>Formulary Status</label>
+                <div class="filter-buttons" id="status-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ALLOWED">Allowed</button>
+                    <button class="filter-btn" data-filter="TARGET_FOR_MODERNIZATION">Under Review</button>
+                    <button class="filter-btn" data-filter="NOT_ALLOWED">Not Allowed</button>
+                    <button class="filter-btn" data-filter="DISCONTINUED">Discontinued</button>
+                </div>
+            </div>
+            <div class="filter-group">
+                <label>WHO ATC Level 4 Category</label>
+                <select id="atc-filter" class="filter-select">
+                    <option value="all">All WHO Categories</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>AHFS Therapeutic Class</label>
+                <select id="ahfs-filter" class="filter-select">
+                    <option value="all">All AHFS Categories</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <div id="loading" class="loading">Loading medication data...</div>
+            <div id="error" class="error" style="display: none;"></div>
+            <table id="medications-table" class="display" style="display: none; width: 100%;">
+                <thead>
+                    <tr>
+                        <th>Medication Name</th>
+                        <th>Status</th>
+                        <th>WHO ATC</th>
+                        <th>AHFS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Categories View -->
+    <div class="container" id="categories-view" style="display: none;">
+        <div class="filters-container">
+            <div class="filter-group">
+                <label>Filter Categories</label>
+                <input type="text" id="category-search" class="filter-select" placeholder="Search categories by code or name..." style="width: 100%;">
+            </div>
+        </div>
+
+        <div class="table-container">
+            <div id="categories-loading" class="loading">Loading category data...</div>
+            <div id="categories-error" class="error" style="display: none;"></div>
+            <table id="categories-table" class="display" style="display: none; width: 100%;">
+                <thead>
+                    <tr>
+                        <th>ATC Code</th>
+                        <th>Category Name</th>
+                        <th>Hierarchy (Level 1 → 2 → 3)</th>
+                        <th>Medications</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Modal for medication reports -->
+    <div id="report-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Medication Report</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div id="modal-body" class="report-content">
+                <div class="loading">Loading report...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for WHO category reports -->
+    <div id="category-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="category-modal-title">WHO Category Report</h2>
+                <span class="close category-close">&times;</span>
+            </div>
+            <div id="category-modal-body" class="report-content">
+                <div class="loading">Loading category information...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery and DataTables JS -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+
+    <!-- Marked.js for Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <script src="dashboard_enhanced.js?v=1760744760"></script>
+</body>
+</html>

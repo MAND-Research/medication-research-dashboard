@@ -122,21 +122,24 @@ function initializeTable() {
         columns: [
             {
                 data: 'name',
-                width: '20%',
-                render: function(data) {
-                    return '<strong>' + data.toUpperCase() + '</strong>';
+                width: '25%',
+                render: function(data, type, row) {
+                    let html = '<strong>' + data.toUpperCase() + '</strong>';
+                    html += '<br><button class="btn-view" onclick="viewMedicationReport(' +
+                           row.id + ')" style="margin-top: 0.5rem;">View Report</button>';
+                    return html;
                 }
             },
             {
                 data: 'status',
-                width: '20%',
+                width: '15%',
                 render: function(data, type, row) {
                     let html = '<span class="status-badge status-' + data + '">' +
                            data.replace(/_/g, ' ') + '</span>';
 
                     // Add TOPICAL ONLY badge if applicable
                     if (row.topical_only) {
-                        html += '<br><span class="status-badge status-TOPICAL_ONLY" style="margin-top: 0.25rem; display: inline-block;">TOPICAL ONLY</span>';
+                        html += '<br><span class="status-badge status-TOPICAL_ONLY" style="margin-top: 0.5rem;">TOPICAL ONLY</span>';
                     }
 
                     return html;
@@ -144,31 +147,49 @@ function initializeTable() {
             },
             {
                 data: null,
+                width: '30%',
                 render: function(data, type, row) {
                     let html = '';
 
                     // WHO ATC Classification
                     if (row.level4_code && row.level4_name) {
-                        html += '<div class="category-label">WHO ATC</div>';
-                        html += '<div><span class="atc-code">' + row.level4_code + '</span></div>';
+                        // Get mapping badge
+                        const mappingInfo = generateWHOMappingBadge(row.who_mapping_type, row.who_mapping_notes);
+
+                        // Determine pill color based on mapping type
+                        let pillClass = 'atc-code';
+                        if (row.who_mapping_type === 'approximation') {
+                            pillClass = 'atc-code atc-code-approximation';
+                        } else if (row.who_mapping_type === 'not_in_who') {
+                            pillClass = 'atc-code atc-code-not-in-who';
+                        } else if (row.who_mapping_type === 'combination_component') {
+                            pillClass = 'atc-code atc-code-combination';
+                        }
+
+                        html += '<span class="' + pillClass + '">' + row.level4_code + '</span> ';
+
+                        // Add mapping badge if present
+                        if (mappingInfo.badge) {
+                            html += mappingInfo.badge + ' ';
+                        }
+
                         html += '<a href="#" class="classification-link" onclick="viewWHOCategory(\'' +
-                               row.level4_code + '\', \'' + escapeHtml(row.level4_name) + '\'); return false;">' +
+                               row.level4_code + '\', \'' + escapeHtml(row.level4_name) + '\'); return false;" ' +
+                               'style="display: inline;">' +
                                row.level4_name.toUpperCase() + '</a>';
-                    }
 
-                    // AHFS Classification
-                    if (row.ahfs_category) {
-                        html += '<div class="category-label" style="margin-top: 0.5rem;">AHFS</div>';
-                        html += '<div><span class="ahfs-code">' + row.ahfs_category.split(' - ')[0] + '</span></div>';
-                        html += '<a href="#" class="classification-link" onclick="viewAHFSCategory(\'' +
-                               escapeHtml(row.ahfs_category) + '\'); return false;">' +
-                               row.ahfs_category.split(' - ')[1].split(' - ')[0].toUpperCase() + '</a>';
-                    }
-
-                    // If no classifications, show WHO mapping info if available
-                    if (!html && row.who_mapping_type) {
-                        html = renderMappingInfo(row.who_mapping_type, row.who_mapping_notes);
-                    } else if (!html) {
+                        // Add explanation text below if there's a mapping note
+                        if (mappingInfo.explanation) {
+                            html += '<br>' + mappingInfo.explanation;
+                        }
+                    } else if (row.who_mapping_type === 'not_in_who') {
+                        // No code assigned but we know why
+                        const mappingInfo = generateWHOMappingBadge(row.who_mapping_type, row.who_mapping_notes);
+                        html = '<span style="color: #999;">Not in WHO Database</span>';
+                        if (mappingInfo.explanation) {
+                            html += '<br>' + mappingInfo.explanation;
+                        }
+                    } else {
                         html = '<span style="color: #999;">Not classified</span>';
                     }
 
@@ -177,11 +198,22 @@ function initializeTable() {
             },
             {
                 data: null,
-                orderable: false,
-                width: '10%',
+                width: '30%',
                 render: function(data, type, row) {
-                    return '<button class="btn-view" onclick="viewMedicationReport(' +
-                           row.id + ')">View Report</button>';
+                    let html = '';
+
+                    // AHFS Classification
+                    if (row.ahfs_category) {
+                        const parts = row.ahfs_category.split(' - ');
+                        html += '<span class="ahfs-code">' + parts[0] + '</span> ';
+                        html += '<a href="#" class="classification-link" onclick="viewAHFSCategory(\'' +
+                               escapeHtml(row.ahfs_category) + '\'); return false;" style="display: inline;">' +
+                               parts[1].split(' - ')[0].toUpperCase() + '</a>';
+                    } else {
+                        html = '<span style="color: #999;">Not classified</span>';
+                    }
+
+                    return html;
                 }
             }
         ],
@@ -197,6 +229,72 @@ function initializeTable() {
             infoFiltered: "(filtered from _MAX_ total medications)"
         }
     });
+}
+
+// Generate WHO mapping badge based on mapping type
+function generateWHOMappingBadge(mappingType, mappingNotes) {
+    if (!mappingType || mappingType === 'exact' || mappingType === 'corrected_direct_match') {
+        // High confidence - no badge needed
+        return {
+            badge: '',
+            explanation: '',
+            tooltipText: ''
+        };
+    }
+
+    if (mappingType === 'name_variant') {
+        // Medium confidence - name differs but code is correct
+        const tooltip = 'Name Variant: US/FDA name differs from WHO international name, but the WHO code and category are clinically accurate.';
+        const explanation = '<span style="color: #3b82f6; font-size: 0.8rem;">※ Name Variant: ' +
+                          (mappingNotes || 'US/FDA name differs from WHO international name') + '</span>';
+        return {
+            badge: '<span class="mapping-badge badge-name-variant" title="' + escapeHtml(tooltip) + '">※</span>',
+            explanation: explanation,
+            tooltipText: tooltip
+        };
+    }
+
+    if (mappingType === 'approximation') {
+        // Low confidence - category level mapping
+        const tooltip = 'Category-Level Mapping: This medication is mapped to a general therapeutic category. A specific WHO substance code may not exist.';
+        const explanation = '<span style="color: #f59e0b; font-size: 0.8rem;">⚠ Approximation: ' +
+                          (mappingNotes || 'Mapped to category level; specific substance code may not exist') + '</span>';
+        return {
+            badge: '<span class="mapping-badge badge-approximation" title="' + escapeHtml(tooltip) + '">⚠</span>',
+            explanation: explanation,
+            tooltipText: tooltip
+        };
+    }
+
+    if (mappingType === 'combination_component') {
+        const tooltip = 'Combination Component: This substance is used only as a component in combination products.';
+        const explanation = '<span style="color: #8b5cf6; font-size: 0.8rem;">C Combination Component: ' +
+                          (mappingNotes || 'Used only in combination products') + '</span>';
+        return {
+            badge: '<span class="mapping-badge badge-combination" title="' + escapeHtml(tooltip) + '">C</span>',
+            explanation: explanation,
+            tooltipText: tooltip
+        };
+    }
+
+    if (mappingType === 'not_in_who') {
+        const tooltip = 'Not in WHO Database: This medication is not found in the WHO ATC classification system (may be discontinued or regional).';
+        const explanation = '<span style="color: #6b7280; font-size: 0.8rem;">⊘ Not in WHO: ' +
+                          (mappingNotes || 'Not found in WHO ATC classification system') + '</span>';
+        return {
+            badge: '<span class="mapping-badge badge-not-in-who" title="' + escapeHtml(tooltip) + '">⊘</span>',
+            explanation: explanation,
+            tooltipText: tooltip
+        };
+    }
+
+    // Unknown mapping type
+    const tooltip = 'Unknown Mapping: ' + (mappingNotes || 'Mapping information unavailable');
+    return {
+        badge: '<span class="mapping-badge badge-unknown" title="' + escapeHtml(tooltip) + '">?</span>',
+        explanation: '<span style="color: #dc2626; font-size: 0.8rem;">? Unknown: ' + (mappingNotes || 'Mapping information unavailable') + '</span>',
+        tooltipText: tooltip
+    };
 }
 
 // View full report for a medication
